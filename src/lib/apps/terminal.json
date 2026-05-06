@@ -2,7 +2,7 @@
     {
         "id": "zsh",
         "name": "Zsh",
-        "description": "Powerful shell with advanced completion features",
+        "description": "Ισχυρό περιβάλλον εντολών με προηγμένες λειτουργίες αυτόματης συμπλήρωσης",
         "category": "Terminal",
         "targets": {
             "ubuntu": "zsh",
@@ -13,7 +13,7 @@
             "nix": "zsh",
             "homebrew": "zsh"
         },
-        "unavailableReason": "Zsh is a system shell and not available via Flatpak or Snap.",
+        "unavailableReason": "Το Zsh είναι ένα κέλυφος συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -24,12 +24,12 @@
     {
         "id": "ohmyzsh",
         "name": "Oh My Zsh",
-        "description": "Zsh configuration framework with plugins/themes",
+        "description": "Πλαίσιο διαμόρφωσης Zsh με προσθήκες/θέματα",
         "category": "Terminal",
         "targets": {
             "nix": "oh-my-zsh"
         },
-        "unavailableReason": "Install via `sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"`. See [ohmyzsh wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH).",
+        "unavailableReason": "Εγκατάσταση μέσω `sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"`. Δείτε [ohmyzsh wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -40,7 +40,7 @@
     {
         "id": "fish",
         "name": "Fish",
-        "description": "Smart and user-friendly interactive shell",
+        "description": "Έξυπνο και φιλικό προς τον χρήστη διαδραστικό περιβάλλον εργασίας",
         "category": "Terminal",
         "targets": {
             "ubuntu": "fish",
@@ -51,7 +51,7 @@
             "nix": "fish",
             "homebrew": "fish"
         },
-        "unavailableReason": "Fish is a system shell and not available via Flatpak or Snap.",
+        "unavailableReason": "Το Fish είναι ένα κέλυφος συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "vscode-icons",
@@ -61,7 +61,7 @@
     {
         "id": "starship",
         "name": "Starship",
-        "description": "Cross-shell customizable command prompt",
+        "description": "Προσαρμόσιμη γραμμή εντολών μεταξύ περιβαλλόντων",
         "category": "Terminal",
         "targets": {
             "ubuntu": "starship",
@@ -71,7 +71,7 @@
             "nix": "starship",
             "homebrew": "starship"
         },
-        "unavailableReason": "Not in Fedora repos. Install via `curl -sS https://starship.rs/install.sh | sh` or see [starship.rs](https://starship.rs/).",
+        "unavailableReason": "Δεν υπάρχει στα αποθετήρια του Fedora. Εγκαταστήστε μέσω `curl -sS https://starship.rs/install.sh | sh` ή δείτε [starship.rs](https://starship.rs/).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -82,7 +82,7 @@
     {
         "id": "alacritty",
         "name": "Alacritty",
-        "description": "Blazing fast GPU-accelerated terminal emulator",
+        "description": "Εξαιρετικά γρήγορος εξομοιωτής τερματικού με επιτάχυνση GPU",
         "category": "Terminal",
         "targets": {
             "ubuntu": "alacritty",
@@ -94,7 +94,7 @@
             "snap": "alacritty --classic",
             "homebrew": "--cask alacritty"
         },
-        "unavailableReason": "Alacritty is not available as a Flatpak package.",
+        "unavailableReason": "Το Alacritty δεν διατίθεται ως πακέτο Flatpak.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -105,7 +105,7 @@
     {
         "id": "kitty",
         "name": "Kitty",
-        "description": "Fast GPU-based terminal with advanced features",
+        "description": "Γρήγορο τερματικό με βάση GPU και προηγμένες λειτουργίες",
         "category": "Terminal",
         "targets": {
             "ubuntu": "kitty",
@@ -116,7 +116,7 @@
             "nix": "kitty",
             "homebrew": "--cask kitty"
         },
-        "unavailableReason": "Kitty is not available via Flatpak or Snap.",
+        "unavailableReason": "Το Kitty δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -127,7 +127,7 @@
     {
         "id": "wezterm",
         "name": "WezTerm",
-        "description": "GPU-accelerated terminal with Lua configuration",
+        "description": "Τερματικό με επιτάχυνση GPU και διαμόρφωση Lua",
         "category": "Terminal",
         "targets": {
             "arch": "wezterm",
@@ -136,7 +136,7 @@
             "flatpak": "org.wezfurlong.wezterm",
             "homebrew": "--cask wezterm"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/en/apps/org.wezfurlong.wezterm) or follow instructions at [wezfurlong.org/wezterm/install](https://wezfurlong.org/wezterm/install/linux.html).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/org.wezfurlong.wezterm) ή ακολουθήστε τις οδηγίες στη διεύθυνση [wezfurlong.org/wezterm/install](https://wezfurlong.org/wezterm/install/linux.html).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -147,7 +147,7 @@
     {
         "id": "foot",
         "name": "Foot",
-        "description": "Lightweight Wayland-native terminal emulator",
+        "description": "Ελαφρύς εξομοιωτής τερματικού με εγγενή υποστήριξη Wayland",
         "category": "Terminal",
         "targets": {
             "ubuntu": "foot",
@@ -158,7 +158,7 @@
             "nix": "foot",
             "homebrew": "foot"
         },
-        "unavailableReason": "Foot is a Wayland-only terminal and not available via Flatpak or Snap.",
+        "unavailableReason": "Το Foot είναι ένα τερματικό που λειτουργεί αποκλειστικά με το Wayland και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -169,14 +169,14 @@
     {
         "id": "ghostty",
         "name": "Ghostty",
-        "description": "Native GPU-accelerated terminal by Mitchell Hashimoto",
+        "description": "Εγγενές τερματικό με επιτάχυνση GPU από τον Mitchell Hashimoto",
         "category": "Terminal",
         "targets": {
             "arch": "ghostty",
             "nix": "ghostty",
             "homebrew": "--cask ghostty"
         },
-        "unavailableReason": "Not in most repos. See [official binaries](https://ghostty.org/docs/install/binary#linux-(official)) or build from source.",
+        "unavailableReason": "Δεν υπάρχει στα περισσότερα αποθετήρια. Δείτε [official binaries](https://ghostty.org/docs/install/binary#linux-(official) ή χτίστε από τον πηγαίο κώδικα.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -187,7 +187,7 @@
     {
         "id": "ptyxis",
         "name": "Ptyxis",
-        "description": "Modern terminal emulator optimized for containerized workflows",
+        "description": "Σύγχρονος εξομοιωτής τερματικού, βελτιστοποιημένος για ροές εργασίας με χρήση κοντέινερ",
         "category": "Terminal",
         "targets": {
             "debian": "ptyxis",
@@ -198,7 +198,7 @@
             "nix": "ptyxis",
             "flatpak": "app.devsuite.Ptyxis"
         },
-        "unavailableReason": "Not available via Snap or Homebrew. Use [Flatpak Version](https://flathub.org/en/apps/app.devsuite.Ptyxis) ",
+        "unavailableReason": "Δεν διατίθεται μέσω Snap ή Homebrew. Χρησιμοποιήστε [Flatpak Version](https://flathub.org/en/apps/app.devsuite.Ptyxis) ",
         "icon": {
             "type": "url",
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ptyxis.svg"
