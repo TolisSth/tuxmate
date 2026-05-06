@@ -2,7 +2,7 @@
     {
         "id": "discord",
         "name": "Discord",
-        "description": "Popular voice, video, and text chat platform",
+        "description": "Δημοφιλής πλατφόρμα συνομιλίας με φωνή, βίντεο και κείμενο",
         "category": "Communication",
         "targets": {
             "arch": "discord",
@@ -12,7 +12,7 @@
             "snap": "discord",
             "homebrew": "--cask discord"
         },
-        "unavailableReason": "Not in official repos. Install via [Flatpak](https://flathub.org/en/apps/com.discordapp.Discord) or download from [discord.com/download](https://discord.com/download).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Εγκαταστήστε μέσω [Flatpak](https://flathub.org/en/apps/com.discordapp.Discord) ή κατεβάστε από [discord.com/download](https://discord.com/download).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -23,7 +23,7 @@
     {
         "id": "vesktop",
         "name": "Vesktop",
-        "description": "Discord client with Vencord mods built-in",
+        "description": "Εφαρμογή Discord με ενσωματομένα Vencord mods built-in",
         "category": "Communication",
         "targets": {
             "arch": "vesktop-bin",
@@ -31,7 +31,7 @@
             "flatpak": "dev.vencord.Vesktop",
             "homebrew": "--cask vesktop"
         },
-        "unavailableReason": "Not available in official repos. Check it on [Flatpak](https://flathub.org/en/apps/dev.vencord.Vesktop) or Download from [vesktop.dev/install/linux](https://vesktop.dev/install/linux/).",
+        "unavailableReason": "Δεν διατίθεται στα επίσημα αποθετήρια. Δείτε το στο [Flatpak](https://flathub.org/en/apps/dev.vencord.Vesktop) ή κατεβάστε από [vesktop.dev/install/linux](https://vesktop.dev/install/linux/).",
         "icon": {
             "type": "url",
             "url": "https://avatars.githubusercontent.com/u/113042587?s=200&v=4"
@@ -40,7 +40,7 @@
     {
         "id": "telegram",
         "name": "Telegram",
-        "description": "Fast cloud-based messaging with file sharing",
+        "description": "Γρήγορη ανταλλαγή μηνυμάτων μέσω cloud με δυνατότητα κοινής χρήσης αρχείων",
         "category": "Communication",
         "targets": {
             "arch": "telegram-desktop",
@@ -50,7 +50,7 @@
             "snap": "telegram-desktop",
             "homebrew": "--cask telegram"
         },
-        "unavailableReason": "Recommended to use [Flatpak](https://flathub.org/apps/org.telegram.desktop) for the latest version. Debian 12 (Bookworm) has an older version (4.6.5) via `sudo apt install -y telegram-desktop`. Debian 13 (Trixie) removed the package entirely. Ubuntu 24.04/25.04 repos have outdated versions — use Flatpak or Snap for current releases. Fedora requires [RPM Fusion](https://rpmfusion.org/) repos.",
+        "unavailableReason": "Συνιστάται η χρήση [Flatpak](https://flathub.org/apps/org.telegram.desktop) για την πιο πρόσφατη έκδοση. Τα Debian 12 (Bookworm) διαθέτει παλαιότερη έκδοση (4.6.5) μέσο `sudo apt install -y telegram-desktop`. Τα Debian 13 (Trixie) αφαίρεσε εντελώς το πακέτο. Τα Ubuntu 24.04/25.04 αποθετήρια περιέχουν παλιές εκδόσεις — χρησιμοποιήστε το Flatpak ή το Snap για τις τρέχουσες εκδόσεις. Τα Fedora απαιτούν [RPM Fusion](https://rpmfusion.org/) αποθετήρια.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -61,7 +61,7 @@
     {
         "id": "signal",
         "name": "Signal",
-        "description": "Secure end-to-end encrypted messaging app",
+        "description": "Εφαρμογή ανταλλαγής μηνυμάτων με ασφαλή κρυπτογράφηση από άκρο σε άκρο",
         "category": "Communication",
         "targets": {
             "arch": "signal-desktop",
@@ -71,7 +71,7 @@
             "snap": "signal-desktop",
             "homebrew": "--cask signal"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/en/apps/org.signal.Signal)/[Snap](https://snapcraft.io/signal-desktop) or follow instructions at [signal.org/download/linux](https://signal.org/download/linux/).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/org.signal.Signal)/[Snap](https://snapcraft.io/signal-desktop) ή ακολουθήστε τις οδηγίες στη διεύθυνση [signal.org/download/linux](https://signal.org/download/linux/).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -82,7 +82,7 @@
     {
         "id": "slack",
         "name": "Slack",
-        "description": "Team collaboration and business messaging",
+        "description": "Ομαδική συνεργασία και εταιρική ανταλλαγή μηνυμάτων",
         "category": "Communication",
         "targets": {
             "arch": "slack-desktop",
@@ -91,7 +91,7 @@
             "snap": "slack",
             "homebrew": "--cask slack"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/en/apps/com.slack.Slack)/[Snap](https://snapcraft.io/slack) or download from [slack.com/downloads/linux](https://slack.com/downloads/linux).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/com.slack.Slack)/[Snap](https://snapcraft.io/slack) ή κατεβάστε από [slack.com/downloads/linux](https://slack.com/downloads/linux).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -102,7 +102,7 @@
     {
         "id": "zoom",
         "name": "Zoom",
-        "description": "Popular video conferencing and meetings",
+        "description": "Δημοφιλείς υπηρεσίες τηλεδιάσκεψης και συναντήσεων",
         "category": "Communication",
         "targets": {
             "arch": "zoom",
@@ -111,7 +111,7 @@
             "snap": "zoom-client",
             "homebrew": "--cask zoom"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/en/apps/us.zoom.Zoom)/[Snap](https://snapcraft.io/zoom-client) or download from [zoom.us/download/linux](https://zoom.us/download/linux).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/us.zoom.Zoom)/[Snap](https://snapcraft.io/zoom-client) ή κατεβάστε από [zoom.us/download/linux](https://zoom.us/download/linux).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -122,7 +122,7 @@
     {
         "id": "thunderbird",
         "name": "Thunderbird",
-        "description": "Free email client by Mozilla with calendar",
+        "description": "Δωρεάν πρόγραμμα ηλεκτρονικού ταχυδρομείου από τη Mozilla με ημερολόγιο",
         "category": "Communication",
         "targets": {
             "ubuntu": "thunderbird",
@@ -145,7 +145,7 @@
     {
         "id": "element",
         "name": "Element",
-        "description": "Decentralized Matrix chat client with E2E encryption",
+        "description": "Αποκεντρωμένος πελάτης συνομιλίας Matrix με κρυπτογράφηση από άκρο σε άκρο",
         "category": "Communication",
         "targets": {
             "arch": "element-desktop",
@@ -155,12 +155,106 @@
             "snap": "element-desktop",
             "homebrew": "--cask element"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/en/apps/im.riot.Riot)/[Snap](https://snapcraft.io/element-desktop) or follow instructions at [element.io/download#linux](https://element.io/en/download#linux).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/im.riot.Riot)/[Snap](https://snapcraft.io/element-desktop) ή ακολουθήστε τις οδηγίες στη διεύθυνση [element.io/download#linux](https://element.io/en/download#linux).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
             "name": "element",
             "color": "#0DBD8B"
         }
+    },
+    {
+    "id": "nheko",
+    "name": "Nheko",
+    "description": "Εγγενής πελάτης Matrix υψηλής απόδοσης, κατασκευασμένος με C++/Qt, που δίνει προτεραιότητα στον συγχρονισμό χαμηλής καθυστέρησης.",
+    "category": "Communication",
+    "targets": {
+      "ubuntu": "nheko",
+      "debian": "nheko",
+      "arch": "nheko",
+      "fedora": "nheko",
+      "opensuse": "nheko",
+      "nix": "nheko",
+      "flatpak": "im.nheko.Nheko",
+      "homebrew": "--cask nheko"
+    },
+    "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Εγκατάσταση μέσω [Flatpak](https://flathub.org/en/apps/im.nheko.Nheko), ή δείτε [nheko-reborn.github.io](https://nheko-reborn.github.io/) για οδηγίες εγκατάστασης.",
+    "icon": {
+      "type": "url",
+      "url": "https://nheko-reborn.github.io/images/logo.png"
     }
+  },
+  {
+    "id": "cinny",
+    "name": "Cinny",
+    "description": "Ένας εξελιγμένος πελάτης Matrix που εστιάζει αποκλειστικά στην εμπειρία του χρήστη",
+    "category": "Communication",
+    "targets": {
+      "arch": "cinny-desktop-bin",
+      "nix": "cinny-desktop",
+      "flatpak": "in.cinny.Cinny"
+    },
+    "unavailableReason": "Δεν περιλαμβάνεται στα περισσότερα επίσημα αποθετήρια. Εγκαταστήστε το χρησιμοποιώντας [Flatpak](https://flathub.org/en/apps/in.cinny.Cinny) ή επισκεφθείτε [cinny.in](https://cinny.in/) για περισσότερες πληροφορίες.",
+    "icon": {
+      "type": "url",
+      "url": "https://cinny.in/assets/cinny.svg"
+    }
+  },
+  {
+    "id": "fluffy-chat",
+    "name": "Fluffy Chat",
+    "description": "Πελάτης Matrix που χρησιμοποιεί το Material Design",
+    "category": "Communication",
+    "targets": {
+      "arch": "fluffychat-bin",
+      "nix": "fluffychat",
+      "flatpak": "im.fluffychat.Fluffychat",
+      "snap": "fluffychat"
+    },
+    "unavailableReason": "`Δεν διατίθεται στα περισσότερα επίσημα αποθετήρια. Χρησημιποιήστε [Flatpak](https://flathub.org/en/apps/im.fluffychat.Fluffychat) ή Snap(https://snapcraft.io/fluffychat) ή επισκεφθείτε [fluffychat.im](https://fluffychat.im/) για περισσότερες πληροφορίες.",
+    "icon": {
+      "type": "url",
+      "url": "https://imgproxy.flathub.org/insecure/dpr:1/f:avif/q:100/rs:fit:128:128/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pbS9mbHVmZnljaGF0L0ZsdWZmeWNoYXQvZWYxZjE1YWY0ZWYwZmYyMzdmNmE0NGNkNzdhNWRlOTYvaWNvbnMvMTI4eDEyOC9pbS5mbHVmZnljaGF0LkZsdWZmeWNoYXQucG5n"
+    }
+  },
+  {
+    "id": "halloy",
+    "name": "Halloy",
+    "description": "Ένα κομψό πρόγραμμα-πελάτης IRC γραμμένο σε Rust",
+    "category": "Communication",
+    "targets": {
+      "arch": "halloy",
+      "opensuse": "halloy",
+      "nix": "halloy",
+      "flatpak": "org.squidowl.halloy",
+      "snap": "halloy",
+      "homebrew": "--cask halloy"
+    },
+    "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Εγκαταστήστε το χρησιμοποιώντας [Flatpak](https://flathub.org/en/apps/org.squidowl.halloy) ή [Snap](https://snapcraft.io/halloy) ή δείτε [halloy.chat](https://halloy.chat/) για περισσότερες πληροφορίες.",
+    "icon": {
+      "type": "url",
+      "url": "https://halloy.chat/logo.png"
+    }
+  },
+  {
+    "id": "dino",
+    "name": "Dino",
+    "description": "Πρόγραμμα-πελάτης XMPP βασισμένο στο GTK για το GNOME",
+    "category": "Communication",
+    "targets": {
+      "ubuntu": "dino-im",
+      "debian": "dino-im",
+      "arch": "dino",
+      "fedora": "dino",
+      "opensuse": "dino",
+      "nix": "dino",
+      "flatpak": "im.dino.Dino",
+      "snap": "dino-tsugu"
+    },
+    "unavailableReason": "Δεν διατίθεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/im.dino.Dino) ή [Snap](https://snapcraft.io/dino-tsugu) ή επισκεφθείτε [dino.im](https://dino.im/) για πεπρισότερες πληροφορίες.",
+    "icon": {
+      "type": "url",
+      "url": "https://dino.im/img/logo.svg"
+    }
+  }
 ]
