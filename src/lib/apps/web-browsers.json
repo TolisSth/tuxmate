@@ -213,5 +213,78 @@
       "type": "url",
       "url": "https://nyxt.atlas.engineer/image/nyxt_square_corner_128x128.png"
     }
+  },
+  {"id": "floorp",
+    "name": "Floorp",
+    "description": "Μια έκδοση του Firefox με πολλές δυνατότητες προσαρμογής.",
+    "category": "Web Browsers",
+    "targets": {
+      "arch": "floorp-bin",
+      "flatpak": "one.ablaze.floorp",
+      "homebrew": "--cask floorp",
+      "nix": "floorp"
+    },
+    "unavailableReason": "Δεν περιλαμβάνεται στα περισσότερα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/one.ablaze.floorp) ή δείτε [floorp.app](https://floorp.app/download) για οδηγίες εγκατάστασης",
+    "icon": {
+      "type": "iconify",
+      "set": "simple-icons",
+      "name": "floorp",
+      "color": "#4B42FF"
+    }
+  },
+  {
+    "id": "mullvad-browser",
+    "name": "Mullvad Browser",
+    "description": "Ένας περιηγητής με έμφαση στην προστασία της ιδιωτικότητας, που δημιουργήθηκε σε συνεργασία με το Tor Project. ",
+    "category": "Web Browsers",
+    "targets": {
+      "arch": "mullvad-browser-bin",
+      "flatpak": "net.mullvad.MullvadBrowser",
+      "homebrew": "--cask mullvad-browser",
+      "nix": "mullvad-browser"
+    },
+    "unavailableReason": "Δεν περιλαμβάνεται στα περισσότερα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/net.mullvad.MullvadBrowser) ή δείτε [mullvad.net](https://mullvad.net/en/download/browser/linux).",
+    "icon": {
+      "type": "url",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Mullvad_Browser_logo.svg"
+    }
+  },
+  {
+    "id": "edge",
+    "name": "Microsoft Edge",
+    "description": "Ιδιόκτητος περιηγητής ιστού της Microsoft",
+    "category": "Web Browsers",
+    "targets": {
+      "arch": "microsoft-edge-stable-bin",
+      "nix": "microsoft-edge",
+      "homebrew": "--cask microsoft-edge",
+      "flatpak": "com.microsoft.Edge"
+    },
+    "unavailableReason": "Δεν περιλαμβάνεται στα περισσότερα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/com.microsoft.Edge) ή κατεβάστε το αρχείο .deb από [microsoft.com](https://www.microsoft.com/en-us/edge/)",
+    "icon": {
+      "type": "iconify",
+      "set": "logos",
+      "name": "microsoft-edge"
+    }
+  },
+  {
+    "id": "opera",
+    "name": "Opera",
+    "description": "Ιδιόκτητος περιηγητής βασισμένος στον Chromium, γνωστός για τον πληθώρα λειτουργιών και το πλεονάζον μέγεθός του.",
+    "category": "Web Browsers",
+    "targets": {
+      "arch": "opera",
+      "homebrew": "--cask opera",
+      "flatpak": "com.opera.Opera",
+      "snap": "opera"
+    },
+    "unavailableReason": "Δεν περιλαμβάνεται στα περισσότερα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/com.opera.Opera) ή κατεβάστε από [opera.com](https://www.opera.com/opera).",
+    "icon": {
+      "type": "iconify",
+      "set": "simple-icons",
+      "name": "opera",
+      "color": "#e2423d"
+    }
   }
+
 ]
