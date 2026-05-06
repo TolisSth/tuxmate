@@ -2,7 +2,7 @@
     {
         "id": "protonvpn",
         "name": "Proton VPN",
-        "description": "Secure VPN by the makers of ProtonMail",
+        "description": "Ασφαλές VPN από τους δημιουργούς του ProtonMail",
         "category": "VPN & Network",
         "targets": {
             "arch": "proton-vpn-gtk-app",
@@ -10,7 +10,7 @@
             "flatpak": "com.protonvpn.www",
             "homebrew": "--cask protonvpn"
         },
-        "unavailableReason": "Not in official repos. Use Flatpak or follow instructions at [protonvpn.com/support/linux-vpn-setup](https://protonvpn.com/support/linux-vpn-setup/).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε το Flatpak ή ακολουθήστε τις οδηγίες στη διεύθυνση [protonvpn.com/support/linux-vpn-setup](https://protonvpn.com/support/linux-vpn-setup/).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -21,14 +21,14 @@
     {
         "id": "mullvad",
         "name": "Mullvad VPN",
-        "description": "Privacy-focused VPN with no-logging policy",
+        "description": "VPN με έμφαση στην προστασία της ιδιωτικότητας και πολιτική μη τήρησης αρχείων καταγραφής",
         "category": "VPN & Network",
         "targets": {
             "arch": "mullvad-vpn-bin",
             "nix": "mullvad-vpn",
             "homebrew": "--cask mullvad-vpn"
         },
-        "unavailableReason": "Not in official repos. Use [AUR](https://aur.archlinux.org/packages/mullvad-vpn-bin) or see [official install guide](https://mullvad.net/en/help/install-mullvad-app-linux).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [AUR](https://aur.archlinux.org/packages/mullvad-vpn-bin) ή δείτε [official install guide](https://mullvad.net/en/help/install-mullvad-app-linux).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -39,7 +39,7 @@
     {
         "id": "tailscale",
         "name": "Tailscale",
-        "description": "Zero-config mesh VPN using WireGuard",
+        "description": "VPN πλέγματος χωρίς διαμόρφωση με χρήση του WireGuard",
         "category": "VPN & Network",
         "targets": {
             "arch": "tailscale",
@@ -48,7 +48,7 @@
             "nix": "tailscale",
             "homebrew": "tailscale"
         },
-        "unavailableReason": "Not in Debian or Ubuntu repos. Follow instructions at [tailscale.com/download/linux](https://tailscale.com/download/linux).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα αποθετήρια του Debian ή του Ubuntu. Ακολουθήστε τις οδηγίες στη διεύθυνση [tailscale.com/download/linux](https://tailscale.com/download/linux).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -59,7 +59,7 @@
     {
         "id": "wireguard",
         "name": "WireGuard",
-        "description": "Fast, modern, secure VPN tunnel protocol",
+        "description": "Γρήγορο, σύγχρονο και ασφαλές πρωτόκολλο σήραγγας VPN",
         "category": "VPN & Network",
         "targets": {
             "ubuntu": "wireguard",
@@ -70,7 +70,7 @@
             "nix": "wireguard-tools",
             "homebrew": "wireguard-tools"
         },
-        "unavailableReason": "WireGuard is a kernel module and not available via Flatpak or Snap.",
+        "unavailableReason": "Το WireGuard είναι ένα module πυρήνα και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -81,7 +81,7 @@
     {
         "id": "openvpn",
         "name": "OpenVPN",
-        "description": "Full-featured SSL VPN solution",
+        "description": "Ολοκληρωμένη λύση SSL VPN",
         "category": "VPN & Network",
         "targets": {
             "ubuntu": "openvpn",
@@ -92,7 +92,7 @@
             "nix": "openvpn",
             "homebrew": "openvpn"
         },
-        "unavailableReason": "OpenVPN is a system package and not available via Flatpak or Snap.",
+        "unavailableReason": "Το OpenVPN είναι ένα πακέτο συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -103,7 +103,7 @@
     {
         "id": "nmap",
         "name": "Nmap",
-        "description": "Network discovery and security auditing tool",
+        "description": "Εργαλείο ανίχνευσης δικτύου και ελέγχου ασφάλειας",
         "category": "VPN & Network",
         "targets": {
             "ubuntu": "nmap",
@@ -114,7 +114,7 @@
             "nix": "nmap",
             "homebrew": "nmap"
         },
-        "unavailableReason": "Nmap is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το Nmap είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "url",
             "url": "https://raw.githubusercontent.com/bwks/vendor-icons-svg/702f2ac88acc71759ce623bc5000a596195e9db3/nmap-logo.svg"
@@ -123,7 +123,7 @@
     {
         "id": "openssh",
         "name": "OpenSSH",
-        "description": "Secure remote login and file transfer via SSH",
+        "description": "Ασφαλής απομακρυσμένη σύνδεση και μεταφορά αρχείων μέσω SSH",
         "category": "VPN & Network",
         "targets": {
             "ubuntu": "openssh-client",
@@ -134,7 +134,7 @@
             "nix": "openssh",
             "homebrew": "openssh"
         },
-        "unavailableReason": "OpenSSH is a system package and not available via Flatpak or Snap.",
+        "unavailableReason": "Το OpenSSH είναι ένα πακέτο συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -145,7 +145,7 @@
     {
         "id": "remmina",
         "name": "Remmina",
-        "description": "Open-source remote desktop client for RDP, VNC, SSH and more",
+        "description": "Πρόγραμμα-πελάτης ανοιχτού κώδικα για απομακρυσμένη πρόσβαση σε επιτραπέζιους υπολογιστές μέσω RDP, VNC, SSH και άλλων πρωτοκόλλων",
         "category": "VPN & Network",
         "targets": {
             "ubuntu": "remmina",
@@ -157,7 +157,7 @@
             "flatpak": "org.remmina.Remmina",
             "snap": "remmina"
         },
-        "unavailableReason": "Remmina is not available via Homebrew, use [Flatpak version](https://flathub.org/en/apps/org.remmina.Remmina) or [Snap version](https://snapcraft.io/remmina) instead.",
+        "unavailableReason": "Το Remmina δεν είναι διαθέσιμο μέσω του Homebrew, χρησιμοποιήστε [Flatpak version](https://flathub.org/en/apps/org.remmina.Remmina) ή [Snap version](https://snapcraft.io/remmina) αντ' αυτού.",
         "icon": {
             "type": "url",
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Org.remmina.Remmina.svg"
