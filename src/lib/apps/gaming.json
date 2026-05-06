@@ -2,7 +2,7 @@
     {
         "id": "steam",
         "name": "Steam",
-        "description": "Largest PC gaming platform and store",
+        "description": "Η μεγαλύτερη πλατφόρμα και το μεγαλύτερο κατάστημα παιχνιδιών για υπολογιστές",
         "category": "Gaming",
         "targets": {
             "ubuntu": "steam",
@@ -13,7 +13,7 @@
             "snap": "steam",
             "homebrew": "--cask steam"
         },
-        "unavailableReason": "Debian requires editing /etc/apt/sources.list adding \"contrib\" to the end of the line that starts with \"deb\" or \"deb-src\" and `sudo apt update` before installing `sudo apt install -y steam-installer`. Arch requires [multilib](https://wiki.archlinux.org/title/Official_repositories#multilib) enabled first: uncomment `[multilib]` section in `/etc/pacman.conf`, then run `sudo pacman -Syu`, then `sudo pacman -S steam`.",
+        "unavailableReason": "Το Debian απαιτεί επεξεργασία /etc/apt/sources.list προσθέτοντας \"contrib\" στο το τέλος της γραμμής που αρχίζει με \"deb\" ή \"deb-src\" και `sudo apt update` πριν από την εγκατάσταση `sudo apt install -y steam-installer`. Το Arch απαιτεί [multilib](https://wiki.archlinux.org/title/Official_repositories#multilib) ενεργοποιείται πρώτα: uncomment `[multilib]` ενότητα στο `/etc/pacman.conf`, και στη συνέχεια εκτελέστε `sudo pacman -Syu` και μετά `sudo pacman -S steam`.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -24,7 +24,7 @@
     {
         "id": "lutris",
         "name": "Lutris",
-        "description": "Open gaming platform for all your games",
+        "description": "Ανοιχτή πλατφόρμα παιχνιδιών για όλα τα παιχνίδια σου",
         "category": "Gaming",
         "targets": {
             "ubuntu": "lutris",
@@ -34,7 +34,7 @@
             "nix": "lutris",
             "flatpak": "net.lutris.Lutris"
         },
-        "unavailableReason": "Debian requires editing /etc/apt/sources.list adding \"contrib\" to the end of the line that starts with \"deb\" or \"deb-src\" and `sudo apt update` before installing `sudo apt install -y lutris`. Lutris is not available as a Snap package.",
+        "unavailableReason": "Το Debian απαιτεί επεξεργασία /etc/apt/sources.list προσθέτοντας \"contrib\" στο το τέλος της γραμμής που αρχίζει με \"deb\" ή \"deb-src\" και `sudo apt update` πριν απο την εγκατάσταση `sudo apt install -y lutris`. Το Lutris δεν διατίθεται ως πακέτο Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -45,7 +45,7 @@
     {
         "id": "heroic",
         "name": "Heroic",
-        "description": "Open-source Epic Games and GOG launcher",
+        "description": "Εκκινητής ανοιχτού κώδικα της Epic Games και της GOG",
         "category": "Gaming",
         "targets": {
             "arch": "heroic-games-launcher-bin",
@@ -53,7 +53,7 @@
             "flatpak": "com.heroicgameslauncher.hgl",
             "homebrew": "--cask heroic"
         },
-        "unavailableReason": "Only available via [AUR](https://aur.archlinux.org/packages/heroic-games-launcher-bin) or [Flatpak](https://flathub.org/apps/details/com.heroicgameslauncher.hgl). see [heroicgameslauncher.com](https://heroicgameslauncher.com/downloads) for more info.",
+        "unavailableReason": "Διατίθεται μόνο μέσω [AUR](https://aur.archlinux.org/packages/heroic-games-launcher-bin) ή [Flatpak](https://flathub.org/apps/details/com.heroicgameslauncher.hgl). Δείτε [heroicgameslauncher.com](https://heroicgameslauncher.com/downloads) για περισότερες πληροφορίες.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -64,7 +64,7 @@
     {
         "id": "prism",
         "name": "Prism Launcher",
-        "description": "Open-source Minecraft launcher with mod support",
+        "description": "Εφαρμογή ανοιχτού κώδικα εκκίνησης Minecraft με υποστήριξη mods",
         "category": "Gaming",
         "targets": {
             "arch": "prismlauncher",
@@ -72,7 +72,7 @@
             "flatpak": "org.prismlauncher.PrismLauncher",
             "homebrew": "--cask prismlauncher"
         },
-        "unavailableReason": "Only available via [AUR](https://aur.archlinux.org/packages/prismlauncher) or [Flatpak](https://flathub.org/apps/details/org.prismlauncher.PrismLauncher). see [prismlauncher.org](https://prismlauncher.org/download/) for more info.",
+        "unavailableReason": "Διατίθετε μόνο μέσω [AUR](https://aur.archlinux.org/packages/prismlauncher) ή [Flatpak](https://flathub.org/apps/details/org.prismlauncher.PrismLauncher). Δείτε [prismlauncher.org](https://prismlauncher.org/download/) για περισότερες πληροφορίες",
         "icon": {
             "type": "url",
             "url": "https://raw.githubusercontent.com/PrismLauncher/PrismLauncher/develop/program_info/org.prismlauncher.PrismLauncher.logo.svg"
@@ -81,7 +81,7 @@
     {
         "id": "retroarch",
         "name": "RetroArch",
-        "description": "All-in-one emulator frontend for retro gaming",
+        "description": "Ολοκληρωμένο περιβάλλον εργασίας εξομοιωτή για ρετρό παιχνίδια",
         "category": "Gaming",
         "targets": {
             "ubuntu": "retroarch",
@@ -104,7 +104,7 @@
     {
         "id": "mangohud",
         "name": "MangoHud",
-        "description": "Vulkan/OpenGL overlay for monitoring FPS and hardware",
+        "description": "Επικάλυψη Vulkan/OpenGL για την παρακολούθηση των FPS και του hardware",
         "category": "Gaming",
         "targets": {
             "ubuntu": "mangohud",
@@ -114,7 +114,7 @@
             "opensuse": "mangohud",
             "nix": "mangohud"
         },
-        "unavailableReason": "MangoHud is a system overlay and not available via Flatpak or Snap.",
+        "unavailableReason": "Το MangoHud είναι μια επικάλυψη συστήματος και δεν είναι διαθέσιμη μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -125,7 +125,7 @@
     {
         "id": "gamemode",
         "name": "GameMode",
-        "description": "Optimizes Linux system performance for gaming",
+        "description": "Βελτιστοποιεί την απόδοση του συστήματος Linux για gaming",
         "category": "Gaming",
         "targets": {
             "ubuntu": "gamemode",
@@ -135,7 +135,7 @@
             "opensuse": "gamemode",
             "nix": "gamemode"
         },
-        "unavailableReason": "GameMode is a system service and not available via Flatpak or Snap.",
+        "unavailableReason": "Το GameMode είναι μια υπηρεσία συστήματος και δεν είναι διαθέσιμη μέσω Flatpak ή Snap.",
         "icon": {
             "type": "url",
             "url": "https://www.svgrepo.com/show/411187/game.svg"
@@ -144,14 +144,14 @@
     {
         "id": "protonup",
         "name": "ProtonUp-Qt",
-        "description": "Install and manage Proton-GE for Steam games",
+        "description": "Εγκατάσταση και διαχείριση του Proton-GE για παιχνίδια του Steam",
         "category": "Gaming",
         "targets": {
             "arch": "protonup-qt-bin",
             "nix": "protonup-qt",
             "flatpak": "net.davidotek.pupgui2"
         },
-        "unavailableReason": "Only available via [AUR](https://aur.archlinux.org/packages/protonup-qt-bin) or [Flatpak](https://flathub.org/apps/net.davidotek.pupgui2).",
+        "unavailableReason": "Διατίθεται μόνο μέσω [AUR](https://aur.archlinux.org/packages/protonup-qt-bin) ή [Flatpak](https://flathub.org/apps/net.davidotek.pupgui2).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -162,7 +162,7 @@
     {
         "id": "antimicrox",
         "name": "AntiMicroX",
-        "description": "Map gamepad buttons to keyboard/mouse actions",
+        "description": "Αντιστοίχιση κουμπιών χειριστηρίου με ενέργειες πληκτρολογίου/ποντικιού",
         "category": "Gaming",
         "targets": {
             "ubuntu": "antimicrox",
@@ -173,7 +173,7 @@
             "nix": "antimicrox",
             "flatpak": "io.github.antimicrox.antimicrox"
         },
-        "unavailableReason": "Not available as a Snap package.",
+        "unavailableReason": "Δεν διατίθεται ως πακέτο Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -184,7 +184,7 @@
     {
         "id": "goverlay",
         "name": "GOverlay",
-        "description": "GUI for MangoHud, vkBasalt, and ReplaySorcery",
+        "description": "GUI για MangoHud, vkBasalt, και ReplaySorcery",
         "category": "Gaming",
         "targets": {
             "ubuntu": "goverlay",
@@ -195,7 +195,7 @@
             "nix": "goverlay",
             "flatpak": "io.github.benjamimgois.goverlay"
         },
-        "unavailableReason": "Not available as a Snap package.",
+        "unavailableReason": "Δεν διατίθεται ως πακέτο Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
