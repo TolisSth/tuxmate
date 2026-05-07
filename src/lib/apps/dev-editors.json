@@ -2,7 +2,7 @@
   {
     "id": "vscode",
     "name": "VS Code",
-    "description": "Most popular extensible code editor by Microsoft",
+    "description": "Ο πιο δημοφιλής επεκτάσιμος επεξεργαστής κώδικα της Microsoft",
     "category": "Dev: Editors",
     "targets": {
       "arch": "code",
@@ -11,7 +11,7 @@
       "snap": "code --classic",
       "homebrew": "--cask visual-studio-code"
     },
-    "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/en/apps/com.visualstudio.code)/[Snap](https://snapcraft.io/code) or download from [code.visualstudio.com](https://code.visualstudio.com/Download).",
+    "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/com.visualstudio.code)/[Snap](https://snapcraft.io/code) ή κατεβάστε από [code.visualstudio.com](https://code.visualstudio.com/Download).",
     "icon": {
       "type": "iconify",
       "set": "logos",
@@ -21,7 +21,7 @@
   {
     "id": "vscodium",
     "name": "VSCodium",
-    "description": "Community-built VS Code without Microsoft telemetry",
+    "description": "VS Code που έχει δημιουργηθεί από την κοινότητα χωρίς τηλεμετρία της Microsoft",
     "category": "Dev: Editors",
     "targets": {
       "arch": "vscodium-bin",
@@ -30,7 +30,7 @@
       "snap": "codium --classic",
       "homebrew": "--cask vscodium"
     },
-    "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/en/apps/com.vscodium.codium)/[Snap](https://snapcraft.io/codium) or follow instructions at [vscodium.com](https://vscodium.com/#install).",
+    "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/com.vscodium.codium)/[Snap](https://snapcraft.io/codium) ή ακολουθήστε τις οδηγίες στη διεύθυνση [vscodium.com](https://vscodium.com/#install).",
     "icon": {
       "type": "iconify",
       "set": "simple-icons",
@@ -41,7 +41,7 @@
   {
     "id": "vim",
     "name": "Vim",
-    "description": "The classic modal text editor that started it all",
+    "description": "Ο κλασικός επεξεργαστής κώδικα με λειτουργικά παράθυρα που τα ξεκίνησε όλα",
     "category": "Dev: Editors",
     "targets": {
       "ubuntu": "vim",
@@ -64,7 +64,7 @@
   {
     "id": "neovim",
     "name": "Neovim",
-    "description": "Modernized Vim with better extensibility",
+    "description": "Εκσυγχρονισμένο Vim με καλύτερη δυνατότητα επέκτασης",
     "category": "Dev: Editors",
     "targets": {
       "ubuntu": "neovim",
@@ -87,7 +87,7 @@
   {
     "id": "helix",
     "name": "Helix",
-    "description": "Modal editor with LSP and tree-sitter built-in",
+    "description": "Επεξεργαστής παραθύρων με ενσωματωμένα LSP και tree-sitter",
     "category": "Dev: Editors",
     "targets": {
       "arch": "helix",
@@ -98,7 +98,7 @@
       "snap": "helix --classic",
       "homebrew": "helix"
     },
-    "unavailableReason": "Not in official Debian/Ubuntu repos. For Ubuntu, add the PPA: `sudo add-apt-repository ppa:maveonair/helix-editor && sudo apt update && sudo apt install helix`. For Debian, download .deb from [GitHub releases](https://github.com/helix-editor/helix/releases).",
+    "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια των Debian/Ubuntu. Για το Ubuntu, προσθέστε το PPA: `sudo add-apt-repository ppa:maveonair/helix-editor && sudo apt update && sudo apt install helix`. Για το Debian, κατεβάστε .deb από [GitHub releases](https://github.com/helix-editor/helix/releases).",
     "icon": {
       "type": "iconify",
       "set": "mdi",
@@ -109,7 +109,7 @@
   {
     "id": "micro",
     "name": "Micro",
-    "description": "Easy-to-use terminal text editor like nano",
+    "description": "Εύχρηστο πρόγραμμα επεξεργασίας κώδικα για τερματικά, όπως το nano",
     "category": "Dev: Editors",
     "targets": {
       "arch": "micro",
@@ -132,7 +132,7 @@
   {
     "id": "zed",
     "name": "Zed",
-    "description": "High-performance editor with real-time collaboration",
+    "description": "Επεξεργαστής κώδικα υψηλής απόδοσης με δυνατότητα συνεργασίας σε πραγματικό χρόνο",
     "category": "Dev: Editors",
     "targets": {
       "arch": "zed",
@@ -140,7 +140,7 @@
       "flatpak": "dev.zed.Zed",
       "homebrew": "--cask zed"
     },
-    "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/en/apps/dev.zed.Zed) or see [zed.dev/docs/linux](https://zed.dev/docs/linux#other-ways-to-install-zed-on-linux) for other methods.",
+    "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/dev.zed.Zed) ή δείτε [zed.dev/docs/linux](https://zed.dev/docs/linux#other-ways-to-install-zed-on-linux) για εναλλακτικές μεθόδους",
     "icon": {
       "type": "iconify",
       "set": "simple-icons",
@@ -151,7 +151,7 @@
   {
     "id": "sublime",
     "name": "Sublime Text",
-    "description": "Lightning-fast proprietary text editor",
+    "description": "Εξαιρετικά γρήγορος ιδιόκτητος επεξεργαστής κώδικα",
     "category": "Dev: Editors",
     "targets": {
       "arch": "sublime-text-4",
@@ -160,7 +160,7 @@
       "snap": "sublime-text --classic",
       "homebrew": "--cask sublime-text"
     },
-    "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/en/apps/com.sublimetext.three)/[Snap](https://snapcraft.io/sublime-text) or follow instructions at [sublimetext.com/docs/linux_repositories](https://www.sublimetext.com/docs/linux_repositories.html).",
+    "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/com.sublimetext.three)/[Snap](https://snapcraft.io/sublime-text) ή ακολουθήστε τις οδηγίες στη διεύθυνση [sublimetext.com/docs/linux_repositories](https://www.sublimetext.com/docs/linux_repositories.html).",
     "icon": {
       "type": "iconify",
       "set": "simple-icons",
@@ -171,7 +171,7 @@
   {
     "id": "arduino",
     "name": "Arduino IDE",
-    "description": "IDE for Arduino microcontroller development",
+    "description": "Περιβάλλον ανάπτυξης για την ανάπτυξη μικροελεγκτών Arduino",
     "category": "Dev: Editors",
     "targets": {
       "ubuntu": "arduino",
@@ -183,7 +183,7 @@
       "snap": "arduino",
       "homebrew": "--cask arduino-ide"
     },
-    "unavailableReason": "Arduino IDE is not in official openSUSE repos. Use [Flatpak](https://flathub.org/en/apps/cc.arduino.IDE2) or [Snap](https://snapcraft.io/arduino) instead.",
+    "unavailableReason": "Το Arduino IDE δεν περιλαμβάνεται στα επίσημα αποθετήρια του openSUSE. Χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/cc.arduino.IDE2) ή [Snap](https://snapcraft.io/arduino) αντ' αυτού.",
     "icon": {
       "type": "iconify",
       "set": "simple-icons",
@@ -194,14 +194,14 @@
   {
     "id": "cursor",
     "name": "Cursor",
-    "description": "AI-powered code editor based on VS Code",
+    "description": "Επεξεργαστής κώδικα με τεχνητή νοημοσύνη, βασισμένος στο VS Code",
     "category": "Dev: Editors",
     "targets": {
       "arch": "cursor-bin",
       "nix": "code-cursor",
       "homebrew": "--cask cursor"
     },
-    "unavailableReason": "Only available via [AUR](https://aur.archlinux.org/packages/cursor-bin) or Nix. Download from [cursor.com/download](https://cursor.com/download).",
+    "unavailableReason": "Διατίθεται μόνο μέσω [AUR](https://aur.archlinux.org/packages/cursor-bin) ή Nix. Λήψη από [cursor.com/download](https://cursor.com/download).",
     "icon": {
       "type": "iconify",
       "set": "simple-icons",
@@ -212,7 +212,7 @@
   {
     "id": "kate",
     "name": "Kate",
-    "description": "Feature-rich text editor by KDE with syntax highlighting",
+    "description": "Πλούσιος σε λειτουργίες επεξεργαστής κώδικα από το KDE με επισήμανση σύνταξης",
     "category": "Dev: Editors",
     "targets": {
       "ubuntu": "kate",
@@ -235,7 +235,7 @@
   {
     "id": "emacs",
     "name": "Emacs",
-    "description": "Extensible, customizable, free/libre text editor",
+    "description": "Επεκτάσιμος, προσαρμόσιμος, ελεύθερος επεξεργαστής κώδικα",
     "category": "Dev: Editors",
     "targets": {
       "ubuntu": "emacs",
@@ -258,7 +258,7 @@
   {
     "id": "geany",
     "name": "Geany",
-    "description": "Fast and lightweight IDE",
+    "description": "Γρήγορος και ελαφρύς επεξεργαστής κώδικα.",
     "category": "Dev: Editors",
     "targets": {
       "ubuntu": "geany",
@@ -270,7 +270,7 @@
       "flatpak": "org.geany.Geany",
       "homebrew": "--cask geany"
     },
-    "unavailableReason": "Snap is unmaintained, download from [Geany](https://www.geany.org/download/releases/) or use [Flatpak](https://flathub.org/en/apps/org.geany.Geany).",
+    "unavailableReason": "Το Snap δεν υποστηρίζεται πλέον, κατεβάστε το από [Geany](https://www.geany.org/download/releases/) ή χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/org.geany.Geany).",
     "icon": {
       "type": "url",
       "url": "https://www.geany.org/static/img/geany.svg"
@@ -279,7 +279,7 @@
   {
     "id": "intellij-idea",
     "name": "Intellij IDEA",
-    "description": "IDE for Java and Kotlin developers by Jetbrains",
+    "description": "Επεξεργαστής κώδικα για προγραμματιστές Java και Kotlin από την JetBrains",
     "category": "Dev: Editors",
     "targets": {
       "arch": "intellij-idea-ultimate-edition",
@@ -288,7 +288,7 @@
       "homebrew": "--cask intellij-idea",
       "snap": "intellij-idea --classic"
     },
-    "unavailableReason": "Not in official repos, download from [JetBrains](https://www.jetbrains.com/idea/download/?section=linux) or use [Flatpak](https://flathub.org/en/apps/com.jetbrains.IntelliJ-IDEA-Ultimate) / [Snap](https://snapcraft.io/intellij-idea).",
+    "unavailableReason": "Δεν υπάρχει στα επίσημα αποθετήρια, κατεβάστε το από [JetBrains](https://www.jetbrains.com/idea/download/?section=linux) ή χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/com.jetbrains.IntelliJ-IDEA-Ultimate) / [Snap](https://snapcraft.io/intellij-idea).",
     "icon": {
       "type": "iconify",
       "set": "logos",
@@ -298,7 +298,7 @@
   {
     "id": "pycharm",
     "name": "Pycharm",
-    "description": "IDE for Python developers and Data scientists by Jetbrains",
+    "description": "Επεξεργαστής κώδικα για προγραμματιστές Python και επιστήμονες δεδομένων από την JetBrains",
     "category": "Dev: Editors",
     "targets": {
       "arch": "pycharm",
@@ -307,7 +307,7 @@
       "snap": "pycharm --classic",
       "nix": "jetbrains.pycharm"
     },
-    "unavailableReason": "Not in official repos, download from [JetBrains](https://www.jetbrains.com/pycharm/download/?section=linux) or use [Flatpak](https://flathub.org/en/apps/com.jetbrains.PyCharm-Professional) / [Snap](https://snapcraft.io/pycharm).",
+    "unavailableReason": "Δεν υπάρχει στα επίσημα αποθετήρια, κατεβάστε το από [JetBrains](https://www.jetbrains.com/pycharm/download/?section=linux) ή χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/com.jetbrains.PyCharm-Professional) / [Snap](https://snapcraft.io/pycharm).",
     "icon": {
       "type": "iconify",
       "set": "logos",
@@ -317,7 +317,7 @@
   {
     "id": "clion",
     "name": "CLion",
-    "description": "IDE for C and C++ developers by Jetbrains",
+    "description": "Επεξεργαστής κώδικα για προγραμματιστές C και C++ από την JetBrains",
     "category": "Dev: Editors",
     "targets": {
       "arch": "clion",
@@ -326,7 +326,7 @@
       "snap": "clion --classic",
       "nix": "jetbrains.clion"
     },
-    "unavailableReason": "Not in official repos, download from [JetBrains](https://www.jetbrains.com/clion/download/?section=linux) or use [Flatpak](https://flathub.org/en/apps/com.jetbrains.CLion) / [Snap](https://snapcraft.io/clion).",
+    "unavailableReason": "Δεν υπάρχει στα επίσημα αποθετήρια, κατεβάστε το από [JetBrains](https://www.jetbrains.com/clion/download/?section=linux) ή χρησιμοποιήστε [Flatpak](https://flathub.org/en/apps/com.jetbrains.CLion) / [Snap](https://snapcraft.io/clion).",
     "icon": {
       "type": "iconify",
       "set": "logos",
