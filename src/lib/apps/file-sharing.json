@@ -2,7 +2,7 @@
     {
         "id": "syncthing",
         "name": "Syncthing",
-        "description": "Decentralized peer-to-peer file synchronization",
+        "description": "Αποκεντρωμένος συγχρονισμός αρχείων από ομότιμο σε ομότιμο",
         "category": "File Sharing",
         "targets": {
             "ubuntu": "syncthing",
@@ -14,7 +14,7 @@
             "flatpak": "me.kozec.syncthingtk",
             "homebrew": "syncthing"
         },
-        "unavailableReason": "Syncthing GTK is available on [Flatpak](https://flathub.org/apps/me.kozec.syncthingtk). Not available as Snap.",
+        "unavailableReason": "Το Syncthing GTK διατίθεται σε [Flatpak](https://flathub.org/apps/me.kozec.syncthingtk). Δεν διατίθεται ως Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -25,7 +25,7 @@
     {
         "id": "qbittorrent",
         "name": "qBittorrent",
-        "description": "Open-source BitTorrent client, uTorrent alternative",
+        "description": "Πρόγραμμα-πελάτης BitTorrent ανοιχτού κώδικα, εναλλακτική λύση του uTorrent",
         "category": "File Sharing",
         "targets": {
             "ubuntu": "qbittorrent",
@@ -48,7 +48,7 @@
     {
         "id": "transmission",
         "name": "Transmission",
-        "description": "Lightweight BitTorrent client",
+        "description": "Ελαφρύς πελάτης BitTorrent",
         "category": "File Sharing",
         "targets": {
             "ubuntu": "transmission",
@@ -60,7 +60,7 @@
             "flatpak": "com.transmissionbt.Transmission",
             "homebrew": "--cask transmission"
         },
-        "unavailableReason": "Transmission is not available as a Snap package. Use [Flatpak](https://flathub.org/apps/com.transmissionbt.Transmission).",
+        "unavailableReason": "Το Transmission δεν διατίθεται ως πακέτο Snap. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/com.transmissionbt.Transmission).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -71,7 +71,7 @@
     {
         "id": "localsend",
         "name": "LocalSend",
-        "description": "Cross-platform AirDrop alternative for local sharing",
+        "description": "Εναλλακτική λύση AirDrop για όλες τις πλατφόρμες, για τοπική κοινή χρήση",
         "category": "File Sharing",
         "targets": {
             "arch": "localsend-bin",
@@ -79,7 +79,7 @@
             "flatpak": "org.localsend.localsend_app",
             "homebrew": "--cask localsend"
         },
-        "unavailableReason": "Only available via [AUR](https://aur.archlinux.org/packages/localsend-bin) or [Flatpak](https://flathub.org/apps/org.localsend.localsend_app). Download from [localsend.org](https://localsend.org/download).",
+        "unavailableReason": "Διατίθεται μόνο μέσω [AUR](https://aur.archlinux.org/packages/localsend-bin) ή [Flatpak](https://flathub.org/apps/org.localsend.localsend_app). Λήψη από [localsend.org](https://localsend.org/download).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -90,7 +90,7 @@
     {
         "id": "filezilla",
         "name": "FileZilla",
-        "description": "Cross-platform FTP, FTPS and SFTP client",
+        "description": "Πολυπλατφορμικός πελάτης FTP, FTPS και SFTP",
         "category": "File Sharing",
         "targets": {
             "ubuntu": "filezilla",
@@ -101,7 +101,7 @@
             "nix": "filezilla",
             "flatpak": "org.filezillaproject.Filezilla"
         },
-        "unavailableReason": "FileZilla is not available as a Snap package.",
+        "unavailableReason": "Το FileZilla δεν διατίθεται ως πακέτο Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -112,7 +112,7 @@
     {
         "id": "nextcloud",
         "name": "Nextcloud",
-        "description": "Self-hosted cloud storage sync client",
+        "description": "Τοπικό πρόγραμμα-πελάτης συγχρονισμού για αποθήκευση στο cloud",
         "category": "File Sharing",
         "targets": {
             "ubuntu": "nextcloud-desktop",
@@ -135,7 +135,7 @@
     {
         "id": "dropbox",
         "name": "Dropbox",
-        "description": "Popular cloud file storage and sync service",
+        "description": "Δημοφιλής υπηρεσία αποθήκευσης και συγχρονισμού αρχείων στο cloud",
         "category": "File Sharing",
         "targets": {
             "arch": "dropbox",
@@ -143,7 +143,7 @@
             "flatpak": "com.dropbox.Client",
             "homebrew": "--cask dropbox"
         },
-        "unavailableReason": "Only available via [AUR](https://aur.archlinux.org/packages/dropbox) or [Flatpak](https://flathub.org/apps/com.dropbox.Client). See [dropbox.com/install-linux](https://www.dropbox.com/install-linux) for other methods.",
+        "unavailableReason": "Διατίθεται μόνο μέσω [AUR](https://aur.archlinux.org/packages/dropbox) ή [Flatpak](https://flathub.org/apps/com.dropbox.Client). Δείτε [dropbox.com/install-linux](https://www.dropbox.com/install-linux) για εναλλακτικές μεθόδους.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -154,12 +154,12 @@
     {
         "id": "abdownloadmanager",
         "name": "AB Download Manager",
-        "description": "Modern download manager with browser integration",
+        "description": "Σύγχρονος διαχειριστής λήψεων με ενσωμάτωση στον περιηγητή",
         "category": "File Sharing",
         "targets": {
             "arch": "ab-download-manager-bin"
         },
-        "unavailableReason": "Only available via [AUR](https://aur.archlinux.org/packages/ab-download-manager-bin). Download from [abdownloadmanager.com](https://abdownloadmanager.com/).",
+        "unavailableReason": "Διατίθεται μόνο μέσω [AUR](https://aur.archlinux.org/packages/ab-download-manager-bin). Λήψη από [abdownloadmanager.com](https://abdownloadmanager.com/).",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -170,14 +170,14 @@
     {
         "id": "fdm",
         "name": "Free Download Manager",
-        "description": "Feature-rich download manager with BitTorrent",
+        "description": "Πλούσιος σε λειτουργίες διαχειριστής λήψεων με υποστήριξη BitTorrent",
         "category": "File Sharing",
         "targets": {
             "arch": "freedownloadmanager-bin",
             "homebrew": "--cask free-download-manager",
             "flatpak": "org.freedownloadmanager.Manager"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak version](https://flathub.org/en/apps/org.freedownloadmanager.Manager) or see [the official website](https://www.freedownloadmanager.org/) or  for other methods.",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak version](https://flathub.org/en/apps/org.freedownloadmanager.Manager) ή δείτε [the official website](https://www.freedownloadmanager.org/) για εναλλακτικές μεθόδους.",
         "icon": {
             "type": "url",
             "url": "https://hexmos.com/freedevtools/svg_icons/reader/free_download_manager.svg"

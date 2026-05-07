@@ -1,11 +1,10 @@
 {
   "meta": {
-    "fetchedAt": "2026-05-06T21:48:47.489Z"
+    "fetchedAt": "2026-05-07T06:27:45.205Z"
   },
-  "count": 708,
+  "count": 709,
   "apps": [
     "ai.jan.Jan",
-    "app.bluebubbles.BlueBubbles",
     "app.comaps.comaps",
     "app.devsuite.Ptyxis",
     "app.drey.Dialect",
@@ -366,6 +365,7 @@
     "io.github.sepehr_rs.Sudoku",
     "io.github.shiiion.primehack",
     "io.github.shonebinu.Brief",
+    "io.github.shonebinu.Defuse",
     "io.github.shonubot.Spruce",
     "io.github.sigmasd.stimulator",
     "io.github.streetpea.Chiaki4deck",
@@ -580,14 +580,12 @@
     "org.kde.kclock",
     "org.kde.kdenlive",
     "org.kde.kdf",
-    "org.kde.kfind",
     "org.kde.kget",
     "org.kde.kid3",
     "org.kde.kleopatra",
     "org.kde.kmahjongg",
     "org.kde.kmines",
     "org.kde.kmymoney",
-    "org.kde.knights",
     "org.kde.koko",
     "org.kde.kolourpaint",
     "org.kde.konsole",
@@ -599,7 +597,7 @@
     "org.kde.kshisen",
     "org.kde.kstars",
     "org.kde.ktorrent",
-    "org.kde.kwalletmanager5",
+    "org.kde.ktouch",
     "org.kde.kweather",
     "org.kde.kwrite",
     "org.kde.labplot",
@@ -642,6 +640,7 @@
     "org.openmw.OpenMW",
     "org.openrgb.OpenRGB",
     "org.openscad.OpenSCAD",
+    "org.pegasus_frontend.Pegasus",
     "org.photoqt.PhotoQt",
     "org.pitivi.Pitivi",
     "org.ppsspp.PPSSPP",
@@ -704,6 +703,7 @@
     "so.libdb.dissent",
     "space.gaiasky.GaiaSky",
     "space.rirusha.Cassette",
+    "studio.planetpeanut.Bobby",
     "tv.kodi.Kodi",
     "tv.plex.PlexDesktop",
     "tv.plex.PlexHTPC",
@@ -711,6 +711,7 @@
     "vn.hoabinh.quan.CoBang",
     "website.i2pd.i2pd",
     "xyz.ketok.Speedtest",
-    "xyz.z3ntu.razergenie"
+    "xyz.z3ntu.razergenie",
+    "zone.dos.Browser"
   ]
 }
