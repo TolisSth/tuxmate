@@ -2,7 +2,7 @@
     {
         "id": "blender",
         "name": "Blender",
-        "description": "Industry-grade 3D creation suite",
+        "description": "Επαγγελματικού επιπέδου σουίτα δημιουργίας 3D μοντέλων",
         "category": "Creative",
         "targets": {
             "ubuntu": "blender",
@@ -25,7 +25,7 @@
     {
         "id": "gimp",
         "name": "GIMP",
-        "description": "Powerful free image editor, Photoshop alternative",
+        "description": "Ισχυρό δωρεάν πρόγραμμα επεξεργασίας εικόνων, εναλλακτική λύση του Photoshop",
         "category": "Creative",
         "targets": {
             "ubuntu": "gimp",
@@ -48,7 +48,7 @@
     {
         "id": "inkscape",
         "name": "Inkscape",
-        "description": "Professional vector graphics editor",
+        "description": "Επαγγελματικό πρόγραμμα επεξεργασίας διανυσματικών γραφικών",
         "category": "Creative",
         "targets": {
             "ubuntu": "inkscape",
@@ -69,7 +69,7 @@
     {
         "id": "krita",
         "name": "Krita",
-        "description": "Professional digital painting application",
+        "description": "Επαγγελματική εφαρμογή ψηφιακής ζωγραφικής",
         "category": "Creative",
         "targets": {
             "ubuntu": "krita",
@@ -92,7 +92,7 @@
     {
         "id": "darktable",
         "name": "Darktable",
-        "description": "Professional photography workflow application",
+        "description": "Εφαρμογή για τη διαχείριση της ροής εργασιών στην επαγγελματική φωτογραφία",
         "category": "Creative",
         "targets": {
             "ubuntu": "darktable",
@@ -113,7 +113,7 @@
     {
         "id": "freecad",
         "name": "FreeCAD",
-        "description": "Open-source parametric 3D CAD modeler",
+        "description": "Παραμετρικό πρόγραμμα μοντελοποίησης 3D CAD ανοιχτού κώδικα",
         "category": "Creative",
         "targets": {
             "ubuntu": "freecad",
@@ -136,7 +136,7 @@
     {
         "id": "kicad",
         "name": "KiCad",
-        "description": "Professional PCB and schematic design suite",
+        "description": "Επαγγελματική σουίτα σχεδιασμού πλακετών τυπωμένων κυκλωμάτων και σχηματικών διαγραμμάτων",
         "category": "Creative",
         "targets": {
             "ubuntu": "kicad",
@@ -159,7 +159,7 @@
     {
         "id": "cura",
         "name": "UltiMaker Cura",
-        "description": "Popular 3D printer slicing application",
+        "description": "Δημοφιλής εφαρμογή τεμαχισμού για 3D εκτυπωτές",
         "category": "Creative",
         "targets": {
             "arch": "cura",
@@ -170,7 +170,7 @@
             "snap": "cura-slicer",
             "homebrew": "--cask ultimaker-cura"
         },
-        "unavailableReason": "Available through snap, flatpak and appimage. For Debian 13 or newer; Ubuntu 25.04 or newer it is available through `sudo apt install -y cura`.",
+        "unavailableReason": "Διατίθεται μέσω snap, flatpak και appimage. Για Debian 13 ή νεότερη έκδοση· για Ubuntu 25.04 ή νεότερη έκδοση διατίθεται μέσω `sudo apt install -y cura`.",
         "icon": {
             "type": "url",
             "url": "https://dl.flathub.org/media/com/ultimaker/cura.desktop/9eeed6dfd5a5ec2c8e5c8917012db5ad/icons/128x128/com.ultimaker.cura.desktop.png"
@@ -179,7 +179,7 @@
     {
         "id": "godot",
         "name": "Godot Engine",
-        "description": "Feature-packed, cross-platform game engine",
+        "description": "Πολυλειτουργικός, διαπλατφορμικός κινητήρας παιχνιδιών",
         "category": "Creative",
         "targets": {
             "ubuntu": "godot",
@@ -191,7 +191,7 @@
             "snap": "godot-4",
             "homebrew": "--cask godot"
         },
-        "unavailableReason": "Installs latest Godot 4. For older distros: Ubuntu 24.04 and Debian 12 (Bookworm) only have `godot3` available use `sudo apt install -y godot3` for Godot 3.x instead.",
+        "unavailableReason": "Εγκαθιστά την πιο πρόσφατη έκδοση του Godot 4. Για παλαιότερες διανομές: Ubuntu 24.04 και Debian 12 (Bookworm) αν έχετε στη διάθεσή σας μόνο το `godot3`, χρησιμοποιήστε `sudo apt install -y godot3` για το Godot 3.x αντ' αυτού.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -202,7 +202,7 @@
     {
         "id": "kolourpaint",
         "name": "KolourPaint",
-        "description": "Easy-to-use paint program by KDE",
+        "description": "Ένα εύχρηστο πρόγραμμα ζωγραφικής από το KDE",
         "category": "Creative",
         "targets": {
             "ubuntu": "kolourpaint",
@@ -222,7 +222,7 @@
     {
         "id": "orcaslicer",
         "name": "OrcaSlicer",
-        "description": "Advanced 3D printer slicer based on BambuStudio",
+        "description": "Προηγμένο πρόγραμμα τεμαχισμού για 3D εκτυπωτές βασισμένο στο BambuStudio",
         "category": "Creative",
         "targets": {
             "arch": "orca-slicer-bin",
@@ -240,12 +240,12 @@
     {
         "id": "davinci-resolve",
         "name": "DaVinci Resolve",
-        "description": "Professional video editing, color grading, and VFX software",
+        "description": "Επαγγελματικό λογισμικό επεξεργασίας βίντεο, χρωματικής βελτίωσης και οπτικών εφέ",
         "category": "Creative",
         "targets": {
             "nix": "davinci-resolve"
         },
-        "unavailableReason": "Not in most official repos. Arch requires manually downloading installer and placing in PKGBUILD before installing `yay -S --needed --noconfirm davinci-resolve` see [wiki.archlinux.org](https://wiki.archlinux.org/title/DaVinci_Resolve) for more info. Or download from [blackmagicdesign.com](https://www.blackmagicdesign.com/products/davinciresolve).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα περισσότερα επίσημα αποθετήρια. Το Arch απαιτεί τη χειρωνακτική λήψη του προγράμματος εγκατάστασης και την προσθήκη του στο αρχείο PKGBUILD πριν από την εγκατάσταση `yay -S --needed --noconfirm davinci-resolve` δείτε [wiki.archlinux.org](https://wiki.archlinux.org/title/DaVinci_Resolve) για περισότερες πληροφορίες. Ή κατεβάστε από [blackmagicdesign.com](https://www.blackmagicdesign.com/products/davinciresolve).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
