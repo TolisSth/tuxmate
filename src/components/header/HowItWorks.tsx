@@ -102,7 +102,7 @@ export function HowItWorks() {
             >
                 <div className="flex items-center justify-between px-6 py-4 border-b border-[var(--border-primary)]/15">
                     <h3 id="how-it-works-title" className="text-base font-semibold text-[var(--text-primary)]">
-                        Help
+                        Βοήθεια
                     </h3>
                     <button
                         onClick={handleClose}
@@ -197,7 +197,7 @@ export function HowItWorks() {
                     : 'bg-[var(--bg-tertiary)] text-[var(--text-muted)] hover:text-[var(--text-secondary)] hover:bg-[var(--bg-hover)]'}`}
             >
                 <HelpCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                <span className="whitespace-nowrap">Help</span>
+                <span className="whitespace-nowrap">Βοήθεια</span>
             </button>
             {isOpen && mounted && typeof document !== 'undefined' && createPortal(modal, document.body)}
         </>

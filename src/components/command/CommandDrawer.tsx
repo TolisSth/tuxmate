@@ -185,7 +185,7 @@ export function CommandDrawer({
                                     className={`h-8 px-4 flex items-center gap-2 rounded-md transition-all text-xs font-medium ${activeShortcut === 'd' ? 'bg-[var(--bg-primary)] text-[var(--text-primary)] scale-[0.98]' : 'hover:bg-[var(--bg-primary)] text-[var(--text-muted)] hover:text-[var(--text-primary)]'}`}
                                 >
                                     <Download className="w-4 h-4" />
-                                    <span>{isNix ? 'configuration.nix' : 'Script'}</span>
+                                    <span>{isNix ? 'configuration.nix' : 'Σενάριο'}</span>
                                 </button>
                                 <button
                                     data-action="copy"
@@ -202,7 +202,7 @@ export function CommandDrawer({
                                     }}
                                 >
                                     {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
-                                    <span>{copied ? 'Copied' : 'Copy'}</span>
+                                    <span>{copied ? 'Αντιγράφηκε!' : 'Αντιγραφή'}</span>
                                 </button>
                             </div>
                         </div>

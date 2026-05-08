@@ -109,11 +109,11 @@ export function Sidebar({
                     <div className="flex flex-col items-start">
                         <h1 className="text-[28px] font-extrabold tracking-tight text-[var(--text-primary)] leading-none"
                             style={{ fontFamily: 'var(--font-heading)', transition: 'color 0.5s' }}>
-                            TuxMate
+                            UniMate
                         </h1>
                         <p className="text-[11px] text-[var(--text-muted)] tracking-[0.14em] uppercase mt-2 font-medium leading-none"
                             style={{ transition: 'color 0.5s' }}>
-                            Linux Bulk App Installer
+                            Πρόγραμμα μαζικής εγκατάστασης εφαρμογών Linux
                         </p>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ export function Sidebar({
                             value={searchQuery}
                             onChange={(e) => onSearchChange(e.target.value)}
                             onKeyDown={handleSearchKeyDown}
-                            placeholder="Search apps..."
+                            placeholder="Αναζήτηση εφαρμογών..."
                             className="flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)]/40 outline-none"
                         />
                         {searchQuery ? (
@@ -146,7 +146,7 @@ export function Sidebar({
                 </div>
 
                 <div className="px-5 pb-5 relative">
-                    <p className="text-[10px] uppercase tracking-[0.15em] text-[var(--text-muted)] mb-2 px-1 font-semibold">Distribution</p>
+                    <p className="text-[10px] uppercase tracking-[0.15em] text-[var(--text-muted)] mb-2 px-1 font-semibold">Διανομή</p>
                     <button
                         onClick={() => setDistroOpen(prev => !prev)}
                         className="sidebar-distro-btn w-full flex items-center gap-3.5 px-4 py-3 rounded-xl border border-[var(--border-primary)] bg-[var(--bg-secondary)]/50"
@@ -203,7 +203,7 @@ export function Sidebar({
                     <div className="flex items-center justify-between mb-2.5 px-1">
                         <div className="flex items-center gap-2">
                             <Terminal className="w-3.5 h-3.5 text-[var(--text-muted)]" />
-                            <p className="text-[10px] uppercase tracking-[0.15em] text-[var(--text-muted)] font-semibold">Command</p>
+                            <p className="text-[10px] uppercase tracking-[0.15em] text-[var(--text-muted)] font-semibold">Εντολή</p>
                         </div>
                         <div className="flex items-center gap-2">
                             {selectedCount > 0 && (
@@ -236,14 +236,14 @@ export function Sidebar({
                                         overflow: 'hidden',
                                     }}
                                 >
-                                    {selectedCount > 0 ? command : 'Select apps to generate command...'}
+                                    {selectedCount > 0 ? command : 'Επιλέξτε εφαρμογές για τη δημιουργία εντολής...'}
                                 </code>
                             </div>
                         </div>
                         {selectedCount > 0 && (
                             <div className="px-4 py-2 bg-[var(--bg-tertiary)]/50 border-t border-[var(--border-primary)] flex items-center justify-center gap-1.5 text-[10px] text-[var(--text-muted)] group-hover:text-[var(--text-secondary)] transition-colors">
                                 <Eye className="w-3 h-3" />
-                                <span>Click for full preview</span>
+                                <span>Κάντε κλικ για πλήρη προεπισκόπηση</span>
                                 <kbd className="ml-1 text-[9px] border border-[var(--border-primary)] rounded px-1 py-px font-mono opacity-50">Tab</kbd>
                             </div>
                         )}
@@ -269,7 +269,7 @@ export function Sidebar({
                             }}
                         >
                             {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4 opacity-60" />}
-                            <span>{copied ? 'Copied!' : 'Copy'}</span>
+                            <span>{copied ? 'Αντιγράφηκε!' : 'Αντιγραφή'}</span>
                         </button>
                         <button
                             data-action="download"
@@ -283,7 +283,7 @@ export function Sidebar({
                                 }`}
                         >
                             <Download className="w-4 h-4 opacity-60" />
-                            <span>Download</span>
+                            <span>Λήψη</span>
                         </button>
                     </div>
 
@@ -300,7 +300,7 @@ export function Sidebar({
                             }}
                         >
                             <Eye className="w-4 h-4" />
-                            <span>Preview</span>
+                            <span>Προεπισκόπηση</span>
                         </button>
                         <button
                             onClick={clearAll}
@@ -313,7 +313,7 @@ export function Sidebar({
                                 }`}
                         >
                             <Trash2 className="w-4 h-4 opacity-60" />
-                            <span>Clear All</span>
+                            <span>Εκκαθάριση όλων</span>
                         </button>
                     </div>
                 </div>
@@ -368,46 +368,46 @@ export function Sidebar({
                 <div className="min-h-4" />
                 <div className="px-5 pb-3">
                     <div className="px-4 py-4 rounded-xl bg-[var(--bg-secondary)]/40 border border-[var(--border-primary)]">
-                        <p className="text-[12px] uppercase tracking-[0.15em] text-[var(--text-secondary)] font-bold mb-3">Keyboard</p>
+                        <p className="text-[12px] uppercase tracking-[0.15em] text-[var(--text-secondary)] font-bold mb-3">Πληκτρολόγιο</p>
                         <div className="grid grid-cols-2 gap-y-2.5 gap-x-6 text-[13px]">
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Search</span>
+                                <span className="text-[var(--text-secondary)]">Αναζήτηση</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">/</kbd>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Navigate</span>
+                                <span className="text-[var(--text-secondary)]">Πλοήγηση</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">←→↑↓</kbd>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Select</span>
+                                <span className="text-[var(--text-secondary)]">Επιλογή</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">Space</kbd>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Copy</span>
+                                <span className="text-[var(--text-secondary)]">Αντιγραφή</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">y</kbd>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Download</span>
+                                <span className="text-[var(--text-secondary)]">Λήψη</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">d</kbd>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Preview</span>
+                                <span className="text-[var(--text-secondary)]">Προεπισκόπηση</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">Tab</kbd>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Theme</span>
+                                <span className="text-[var(--text-secondary)]">Θέμα</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">t</kbd>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Clear All</span>
+                                <span className="text-[var(--text-secondary)]">Εκκαθάριση όλων</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">c</kbd>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Help</span>
+                                <span className="text-[var(--text-secondary)]">Βοήθεια</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">?</kbd>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-[var(--text-secondary)]">Close</span>
+                                <span className="text-[var(--text-secondary)]">Κλείσιμο</span>
                                 <kbd className="text-[11px] text-[var(--text-primary)] bg-[var(--bg-secondary)] border border-[var(--border-primary)] rounded-md px-2 py-0.5 font-mono font-medium shadow-sm">Esc</kbd>
                             </div>
                         </div>
