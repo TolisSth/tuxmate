@@ -2,7 +2,7 @@
     {
         "id": "btop",
         "name": "btop",
-        "description": "Beautiful terminal resource monitor with graphs",
+        "description": "Κομψός παρακολούθητής πόρων τερματικού με γραφήματα",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "btop",
@@ -13,7 +13,7 @@
             "nix": "btop",
             "homebrew": "btop"
         },
-        "unavailableReason": "btop is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το btop είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -24,7 +24,7 @@
     {
         "id": "htop",
         "name": "htop",
-        "description": "Interactive process viewer and system monitor",
+        "description": "Διαδραστικό πρόγραμμα προβολής διεργασιών και παρακολούθησης συστήματος",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "htop",
@@ -36,7 +36,7 @@
             "snap": "htop",
             "homebrew": "htop"
         },
-        "unavailableReason": "htop is a CLI tool and not available as a Flatpak.",
+        "unavailableReason": "Το htop είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται ως Flatpak.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -47,7 +47,7 @@
     {
         "id": "fastfetch",
         "name": "fastfetch",
-        "description": "Fast neofetch-like system info tool",
+        "description": "Γρήγορο εργαλείο πληροφοριών συστήματος τύπου neofetch",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "fastfetch",
@@ -58,7 +58,7 @@
             "nix": "fastfetch",
             "homebrew": "fastfetch"
         },
-        "unavailableReason": "CLI-only (no Flatpak/Snap).",
+        "unavailableReason": "Μόνο για γραμμή εντολών (οχι Flatpak/Snap).",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -69,7 +69,7 @@
     {
         "id": "eza",
         "name": "eza",
-        "description": "Modern ls replacement with colors and icons",
+        "description": "Σύγχρονη αντικατάσταση του ls με χρώματα και εικονίδια",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "eza",
@@ -79,7 +79,7 @@
             "nix": "eza",
             "homebrew": "eza"
         },
-        "unavailableReason": "Unmaintained on Fedora; removed from repos. CLI-only (no Flatpak/Snap).",
+        "unavailableReason": "Δεν υποστηρίζεται στο Fedora· έχει αφαιρεθεί από τα αποθετήρια. Μόνο για γραμμή εντολών (οχι Flatpak/Snap).",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -90,7 +90,7 @@
     {
         "id": "bat",
         "name": "bat",
-        "description": "Cat clone with syntax highlighting and git integration",
+        "description": "Κλώνος του Cat με επισήμανση σύνταξης και ενσωμάτωση του Git",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "bat",
@@ -101,7 +101,7 @@
             "nix": "bat",
             "homebrew": "bat"
         },
-        "unavailableReason": "bat is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το bat είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -112,7 +112,7 @@
     {
         "id": "fzf",
         "name": "fzf",
-        "description": "Lightning-fast command-line fuzzy finder",
+        "description": "Εξαιρετικά γρήγορος μηχανισμός αναζήτησης με ασαφή κριτήρια από τη γραμμή εντολών",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "fzf",
@@ -123,7 +123,7 @@
             "nix": "fzf",
             "homebrew": "fzf"
         },
-        "unavailableReason": "fzf is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το fzf είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -134,7 +134,7 @@
     {
         "id": "ripgrep",
         "name": "ripgrep",
-        "description": "Ultra-fast recursive search respecting .gitignore",
+        "description": "Εξαιρετικά γρήγορη αναδρομική αναζήτηση που λαμβάνει υπόψη το αρχείο .gitignore",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "ripgrep",
@@ -145,7 +145,7 @@
             "nix": "ripgrep",
             "homebrew": "ripgrep"
         },
-        "unavailableReason": "ripgrep is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το ripgrep είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -156,7 +156,7 @@
     {
         "id": "zoxide",
         "name": "zoxide",
-        "description": "Smart cd that learns your habits",
+        "description": "Έξυπνο CD που μαθαίνει τις συνήθειές σας",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "zoxide",
@@ -167,7 +167,7 @@
             "nix": "zoxide",
             "homebrew": "zoxide"
         },
-        "unavailableReason": "zoxide is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το zoxide είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -178,7 +178,7 @@
     {
         "id": "tldr",
         "name": "tldr",
-        "description": "Simplified community-driven man pages",
+        "description": "Απλοποιημένες σελίδες οδηγιών με τη συμβολή της κοινότητας",
         "category": "CLI Tools",
         "targets": {
             "arch": "tldr",
@@ -186,7 +186,7 @@
             "nix": "tldr",
             "homebrew": "tldr"
         },
-        "unavailableReason": "tldr is a CLI tool and not available on openSUSE, Flatpak, or Snap. For Debian 12 (Bookworm) or older and Ubuntu 24.04 or older use `sudo apt install -y tldr`",
+        "unavailableReason": "Το tldr είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται για openSUSE, Flatpak ή Snap. Για Debian 12 (Bookworm) ή παλαιότερη έκδοση και Ubuntu 24.04 ή παλαιότερη έκδοση χρησιμοποιήστε `sudo apt install -y tldr`",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -197,7 +197,7 @@
     {
         "id": "wget",
         "name": "wget",
-        "description": "Command-line file downloader for HTTP/FTP",
+        "description": "Πρόγραμμα λήψης αρχείων μέσω γραμμής εντολών για HTTP/FTP",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "wget",
@@ -208,7 +208,7 @@
             "nix": "wget",
             "homebrew": "wget"
         },
-        "unavailableReason": "wget is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το wget είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -219,7 +219,7 @@
     {
         "id": "curl",
         "name": "curl",
-        "description": "Command-line tool for transferring data via URLs",
+        "description": "Εργαλείο γραμμής εντολών για τη μεταφορά δεδομένων μέσω URL",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "curl",
@@ -230,7 +230,7 @@
             "nix": "curl",
             "homebrew": "curl"
         },
-        "unavailableReason": "curl is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το curl είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -241,7 +241,7 @@
     {
         "id": "aria2",
         "name": "aria2",
-        "description": "Multi-protocol, multi-source download accelerator",
+        "description": "Επιταχυντής λήψεων πολλαπλών πρωτοκόλλων και πηγών",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "aria2",
@@ -252,7 +252,7 @@
             "nix": "aria2",
             "homebrew": "aria2"
         },
-        "unavailableReason": "aria2 is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το aria2 είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -263,7 +263,7 @@
     {
         "id": "yazi",
         "name": "yazi",
-        "description": "Blazing fast terminal file manager in Rust",
+        "description": "Εξαιρετικά γρήγορος διαχειριστής αρχείων τερματικού γραμμένος σε Rust",
         "category": "CLI Tools",
         "targets": {
             "arch": "yazi",
@@ -271,7 +271,7 @@
             "nix": "yazi",
             "homebrew": "yazi"
         },
-        "unavailableReason": "Not in most repos. Install via [cargo](https://crates.io/crates/yazi) or download from [github.com/sxyazi/yazi](https://github.com/sxyazi/yazi/releases).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα περισσότερα αποθετήρια. Εγκαταστήστε μέσω [cargo](https://crates.io/crates/yazi) ή κατεβάστε από [github.com/sxyazi/yazi](https://github.com/sxyazi/yazi/releases).",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -282,7 +282,7 @@
     {
         "id": "ranger",
         "name": "ranger",
-        "description": "Vim-inspired terminal file manager with previews",
+        "description": "Διαχειριστής αρχείων τερματικού εμπνευσμένος από το Vim με δυνατότητα προεπισκόπησης",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "ranger",
@@ -293,7 +293,7 @@
             "nix": "ranger",
             "homebrew": "ranger"
         },
-        "unavailableReason": "ranger is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το ranger είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -304,7 +304,7 @@
     {
         "id": "ncdu",
         "name": "ncdu",
-        "description": "NCurses-based disk usage analyzer",
+        "description": "Αναλυτής χρήσης δίσκου βασισμένος στο NCurses",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "ncdu",
@@ -315,7 +315,7 @@
             "nix": "ncdu",
             "homebrew": "ncdu"
         },
-        "unavailableReason": "ncdu is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το ncdu είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -326,7 +326,7 @@
     {
         "id": "fd",
         "name": "fd",
-        "description": "Simple, fast alternative to find command",
+        "description": "Μια απλή και γρήγορη εναλλακτική λύση για την εντολή «find»",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "fd-find",
@@ -337,7 +337,7 @@
             "nix": "fd",
             "homebrew": "fd"
         },
-        "unavailableReason": "fd is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το fd είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -348,7 +348,7 @@
     {
         "id": "tmux",
         "name": "tmux",
-        "description": "Terminal session manager and multiplexer",
+        "description": "Διαχειριστής συνεδριών τερματικού και πολυπλέκτης",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "tmux",
@@ -359,7 +359,7 @@
             "nix": "tmux",
             "homebrew": "tmux"
         },
-        "unavailableReason": "tmux is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το tmux είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -370,7 +370,7 @@
     {
         "id": "zellij",
         "name": "Zellij",
-        "description": "Modern terminal multiplexer with layout system",
+        "description": "Σύγχρονος πολυπλέκτης τερματικών με σύστημα διάταξης",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "zellij",
@@ -380,7 +380,7 @@
             "nix": "zellij",
             "homebrew": "zellij"
         },
-        "unavailableReason": "Not in Debian repos. Install via `cargo install zellij` or see [zellij.dev](https://zellij.dev/documentation/installation.html).",
+        "unavailableReason": "Δεν υπάρχει στα αποθετήρια του Debian. Εγκαταστήστε μέσω `cargo install zellij` ή δείτε [zellij.dev](https://zellij.dev/documentation/installation.html).",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -391,14 +391,14 @@
     {
         "id": "superfile",
         "name": "Superfile",
-        "description": "Modern terminal file manager with TUI",
+        "description": "Σύγχρονος διαχειριστής αρχείων τερματικού με TUI",
         "category": "CLI Tools",
         "targets": {
             "arch": "superfile",
             "nix": "superfile",
             "homebrew": "superfile"
         },
-        "unavailableReason": "Install via `go install` or see [superfile.dev](https://superfile.dev/getting-started/installation/).",
+        "unavailableReason": "Κατεβάστε μέσω `go install` ή δείτε [superfile.dev](https://superfile.dev/getting-started/installation/).",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -409,7 +409,7 @@
     {
         "id": "rsync",
         "name": "rsync",
-        "description": "Fast incremental file transfer and sync tool",
+        "description": "Εργαλείο γρήγορης σταδιακής μεταφοράς και συγχρονισμού αρχείων",
         "category": "CLI Tools",
         "targets": {
             "ubuntu": "rsync",
@@ -420,7 +420,7 @@
             "nix": "rsync",
             "homebrew": "rsync"
         },
-        "unavailableReason": "rsync is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το rsync είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
