@@ -133,7 +133,7 @@ export function CommandDrawer({
                                     {isNix ? 'Configuration Preview' : 'Terminal Preview'}
                                 </h3>
                                 <p className="text-xs text-[var(--text-muted)] mt-0.5">
-                                    {selectedCount} apps selected
+                                    {selectedCount} εφαρμογές επιλέχθηκαν
                                 </p>
                             </div>
                         </div>

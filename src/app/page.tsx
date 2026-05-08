@@ -280,11 +280,11 @@ export default function Home() {
                                 />
                                 <div className="flex flex-col justify-center">
                                     <h1 className="text-xl sm:text-2xl font-bold tracking-tight" style={{ transition: 'color 0.5s' }}>
-                                        TuxMate
+                                        UniMate
                                     </h1>
                                     <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 mt-0.5">
                                         <p className="text-xs sm:text-sm text-[var(--text-muted)] tracking-widest uppercase opacity-80" style={{ transition: 'color 0.5s' }}>
-                                            The Linux Bulk App Installer.
+                                            Πρόγραμμα μαζικής εγκατάστασης εφαρμογών για Linux.
                                         </p>
                                         <span className="hidden sm:inline text-[var(--text-muted)] opacity-30 text-[10px]">•</span>
                                         <div className="hidden sm:block">

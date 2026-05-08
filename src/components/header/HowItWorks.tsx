@@ -115,21 +115,21 @@ export function HowItWorks() {
                 <div className="flex-1 overflow-y-auto px-6 py-6 space-y-6" style={{ scrollbarGutter: 'stable' }}>
 
                     <section>
-                        <h4 className="text-sm font-medium text-[var(--text-primary)] mb-4 pl-3 border-l-2 border-[var(--text-muted)]/30">Keyboard Shortcuts</h4>
+                        <h4 className="text-sm font-medium text-[var(--text-primary)] mb-4 pl-3 border-l-2 border-[var(--text-muted)]/30">Συντομεύσεις πληκτρολογίου</h4>
                         <div className="grid grid-cols-2 gap-x-8 gap-y-2">
                             {[
-                                ['↑↓←→', 'Navigate through apps'],
-                                ['hjkl', 'Vim-style navigation'],
-                                ['Space', 'Select or deselect app'],
-                                ['/', 'Focus search box'],
-                                ['y', 'Copy install command'],
-                                ['d', 'Download install script'],
-                                ['c', 'Clear all selections'],
-                                ['t', 'Toggle light/dark theme'],
-                                ['Tab', 'Preview current selection'],
-                                ['Esc', 'Close this modal'],
-                                ['?', 'Show this help'],
-                                ['1 / 2', 'Switch AUR helper (yay/paru)'],
+                                ['↑↓←→', 'Πλοήγηση στις εφαρμογές'],
+                                ['hjkl', 'Πλοήγηση τύπου Vim'],
+                                ['Κενό', 'Επιλογή ή κατάργηση επιλογής εφαρμογής'],
+                                ['/', 'Πεδίο αναζήτησης'],
+                                ['y', 'Αντιγραφή εντολής εγκατάστασης'],
+                                ['d', 'Λήψη του σεναρίου εγκατάστασης'],
+                                ['c', 'Εκκαθάριση όλων των επιλογών'],
+                                ['t', 'Εναλλαγή φωτεινού/σκοτεινού θέματος'],
+                                ['Tab', 'Προεπισκόπηση των τρέχων επιλογών'],
+                                ['Esc', 'Κλείσε αυτό το αναδυόμενο παράθυρο'],
+                                ['?', 'Προβολή αυτής της βοήθειας'],
+                                ['1 / 2', 'Εναλλαγή βοηθητικού προγράμματος AUR (yay/paru)'],
                             ].map(([key, desc]) => (
                                 <div key={key} className="flex items-center gap-3 text-sm">
                                     <kbd className="inline-flex items-center justify-center min-w-[52px] px-2 py-1 bg-[var(--bg-secondary)] border border-[var(--border-primary)]/20 rounded text-xs font-mono text-[var(--text-secondary)]">
@@ -142,43 +142,43 @@ export function HowItWorks() {
                     </section>
 
                     <section>
-                        <h4 className="text-sm font-medium text-[var(--text-primary)] mb-3 pl-3 border-l-2 border-[var(--text-muted)]/30">Getting Started</h4>
+                        <h4 className="text-sm font-medium text-[var(--text-primary)] mb-3 pl-3 border-l-2 border-[var(--text-muted)]/30">Πρώτα βήματα</h4>
                         <ol className="space-y-2 text-sm text-[var(--text-muted)] leading-relaxed">
                             <li>
-                                <strong className="text-[var(--text-secondary)]">1. Pick your distro</strong> — Select your Linux distribution from the dropdown at the top. This determines which package manager commands TuxMate generates for you.
+                                <strong className="text-[var(--text-secondary)]">1. Επιλέξτε τη διανομή σας</strong> — Επιλέξτε τη διανομή Linux σας από το αναπτυσσόμενο μενού στην κορυφή. Αυτό καθορίζει ποιες εντολές διαχειριστή πακέτων θα δημιουργήσει το TuxMate για εσάς.
                             </li>
                             <li>
-                                <strong className="text-[var(--text-secondary)]">2. Select apps</strong> — Browse the categories and click on apps to add them to your selection. Selected apps are highlighted. Use keyboard shortcuts to navigate faster.
+                                <strong className="text-[var(--text-secondary)]">2. Επιλέξτε εφαρμογιές</strong> — Περιηγηθείτε στις κατηγορίες και κάντε κλικ στις εφαρμογές για να τις προσθέσετε στην επιλογή σας. Οι επιλεγμένες εφαρμογές εμφανίζονται με έντονη γραφή. Χρησιμοποιήστε τις συντομεύσεις πληκτρολογίου για ταχύτερη πλοήγηση.
                             </li>
                             <li>
-                                <strong className="text-[var(--text-secondary)]">3. Copy or download</strong> — Copy the generated install command to your clipboard, or download a complete shell script. Downloaded scripts include error handling and can install multiple apps at once.
+                                <strong className="text-[var(--text-secondary)]">3. Αντιγραφή ή λήψη</strong> — Αντιγράψτε την εντολή εγκατάστασης που δημιουργήθηκε στο πρόχειρο ή κατεβάστε ένα πλήρες σενάριο shell. Τα σενάρια που κατεβάζετε περιλαμβάνουν διαχείριση σφαλμάτων και μπορούν να εγκαταστήσουν πολλές εφαρμογές ταυτόχρονα.
                             </li>
                             <li>
-                                <strong className="text-[var(--text-secondary)]">4. Run in terminal</strong> — Open your terminal, paste the command (Ctrl+Shift+V), and press Enter. The script will handle the rest.
+                                <strong className="text-[var(--text-secondary)]">4. Εκτέλεση στο τερματικό</strong> — Ανοίξτε το τερματικό σας, επικολλήστε την εντολή (Ctrl+Shift+V) και πατήστε Enter. Το σενάριο θα αναλάβει τα υπόλοιπα.
                             </li>
                         </ol>
                     </section>
 
                     <section>
-                        <h4 className="text-sm font-medium text-[var(--text-primary)] mb-3 pl-3 border-l-2 border-[var(--text-muted)]/30">Good to Know</h4>
+                        <h4 className="text-sm font-medium text-[var(--text-primary)] mb-3 pl-3 border-l-2 border-[var(--text-muted)]/30">Χρήσιμες πληροφορίες</h4>
                         <ul className="space-y-2 text-sm text-[var(--text-muted)] leading-relaxed">
                             <li>
-                                <strong className="text-[var(--text-secondary)]">Greyed out apps</strong> aren&apos;t available in your distro&apos;s official repositories. Try switching to Flatpak or Snap in the dropdown, or hover the info icon next to the app for alternative installation methods.
+                                <strong className="text-[var(--text-secondary)]">Εφαρμογές με γκρι χρώμα</strong> δεν είναι διαθέσιμα στα επίσημα αποθετήρια της διανομής σας. Δοκιμάστε να επιλέξετε το Flatpak ή το Snap από το αναπτυσσόμενο μενού ή τοποθετήστε τον κέρσορα πάνω στο εικονίδιο πληροφοριών δίπλα στην εφαρμογή για εναλλακτικούς τρόπους εγκατάστασης.
                             </li>
                             <li>
-                                <strong className="text-[var(--text-secondary)]">Arch Linux users</strong> — Some packages come from the AUR. TuxMate uses yay or paru as the AUR helper. Press 1 or 2 anytime to switch between them.
+                                <strong className="text-[var(--text-secondary)]">Χρήστες Arch Linux</strong> — Ορισμένα πακέτα προέρχονται από το AUR. Το UniMate χρησιμοποιεί το yay ή το paru ως βοηθητικό πρόγραμμα για το AUR. Πατήστε το 1 ή το 2 οποιαδήποτε στιγμή για να εναλλάσσεστε μεταξύ τους.
                             </li>
                             <li>
-                                <strong className="text-[var(--text-secondary)]">Homebrew users</strong> — Works on both macOS and Linux. GUI apps (Casks) are macOS-only and will be automatically skipped on Linux. The script handles this check for you.
+                                <strong className="text-[var(--text-secondary)]">Χρήστες Homebrew</strong> — Λειτουργεί τόσο σε macOS όσο και σε Linux. Οι εφαρμογές με γραφικό περιβάλλον χρήστη (Casks) είναι διαθέσιμες μόνο για macOS και θα παραλείπονται αυτόματα στο Linux. Το σενάριο αναλαμβάνει αυτόν τον έλεγχο για εσάς.
                             </li>
                             <li>
-                                <strong className="text-[var(--text-secondary)]">Auto-save</strong> — Your app selections are saved automatically in your browser. Come back anytime and your selections will still be there.
+                                <strong className="text-[var(--text-secondary)]">Αυτόματη αποθήκευση</strong> — Οι επιλογές σας για τις εφαρμογές αποθηκεύονται αυτόματα στον περιηγητή σας. Επισκεφθείτε ξανά τη σελίδα όποτε θέλετε και οι επιλογές σας θα παραμένουν εκεί.
                             </li>
                             <li>
-                                <strong className="text-[var(--text-secondary)]">NixOS</strong> — Generates `environment.systemPackages`. If you pick unfree apps, the download includes comments showing exactly what to whitelist with `allowUnfree`.
+                                <strong className="text-[var(--text-secondary)]">NixOS</strong> — Δημιουργεί το αρχείο `environment.systemPackages`. Αν επιλέξετε εφαρμογές που δεν είναι ελεύθερες, η λήψη περιλαμβάνει σχόλια που αναφέρουν ακριβώς τι πρέπει να προσθέσετε στη λίστα εξαιρέσεων με το `allowUnfree`.
                             </li>
                             <li>
-                                <strong className="text-[var(--text-secondary)]">Script Safety</strong> — Downloaded scripts are robust and idempotent. They include error handling, network retries, and system checks. Run them with <code className="px-1 py-0.5 bg-[var(--bg-secondary)] border border-[var(--border-primary)]/20 rounded text-xs font-mono">bash tuxmate-*.sh</code> to safely install your selection.
+                                <strong className="text-[var(--text-secondary)]">Ασφάλεια σεναρίων</strong> — Τα σενάρια που κατεβάζετε είναι αξιόπιστα και ισχυρά. Περιλαμβάνουν διαχείριση σφαλμάτων, επαναλήψεις δικτυακών συνδέσεων και ελέγχους συστήματος. Εκτελέστε τα με <code className="px-1 py-0.5 bg-[var(--bg-secondary)] border border-[var(--border-primary)]/20 rounded text-xs font-mono">bash tuxmate-*.sh</code> για να εγκαταστήσετε με ασφάλεια την επιλογή σας.
                             </li>
                         </ul>
                     </section>
