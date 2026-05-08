@@ -2,7 +2,7 @@
     {
         "id": "gparted",
         "name": "GParted",
-        "description": "GNOME partition editor for disk management",
+        "description": "Επεξεργαστής διαμερισμάτων GNOME για τη διαχείριση δίσκων",
         "category": "System",
         "targets": {
             "ubuntu": "gparted",
@@ -12,7 +12,7 @@
             "opensuse": "gparted",
             "nix": "gparted"
         },
-        "unavailableReason": "GParted requires root access and is not available via Flatpak or Snap.",
+        "unavailableReason": "Το GParted απαιτεί δικαιώματα διαχειριστή και δεν είναι διαθέσιμο μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -23,7 +23,7 @@
     {
         "id": "kde-partition-manager",
         "name": "KDE Partition Manager",
-        "description": "Utility for management of disk devices, partitions and file systems",
+        "description": "Βοηθητικό πρόγραμμα για τη διαχείριση δίσκων, διαμερισμάτων και συστημάτων αρχείων",
         "category": "System",
         "targets": {
             "ubuntu": "partitionmanager",
@@ -34,7 +34,7 @@
             "nix": "partitionmanager",
             "flatpak": "org.kde.partitionmanager"
         },
-        "unavailableReason": "Not available as a Snap package.",
+        "unavailableReason": "Δεν διατίθεται ως πακέτο Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -45,7 +45,7 @@
     {
         "id": "kdeconnect",
         "name": "KDE Connect",
-        "description": "Connect your phone to your Linux desktop",
+        "description": "Συνδέστε το κινητό σας με τον επιτραπέζιο υπολογιστή σας με Linux",
         "category": "System",
         "targets": {
             "ubuntu": "kdeconnect",
@@ -55,7 +55,7 @@
             "opensuse": "kdeconnect-kde",
             "nix": "kdeconnect"
         },
-        "unavailableReason": "KDE Connect is not available via Flatpak or Snap.",
+        "unavailableReason": "Το KDE Connect δεν είναι διαθέσιμο μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -66,7 +66,7 @@
     {
         "id": "timeshift",
         "name": "Timeshift",
-        "description": "System snapshot and restore tool like Time Machine",
+        "description": "Εργαλείο δημιουργίας αντιγράφων ασφαλείας και επαναφοράς συστήματος, όπως το Time Machine",
         "category": "System",
         "targets": {
             "ubuntu": "timeshift",
@@ -76,7 +76,7 @@
             "opensuse": "timeshift",
             "nix": "timeshift"
         },
-        "unavailableReason": "Requires root filesystem access; not available as Flatpak or Snap.",
+        "unavailableReason": "Απαιτείται πρόσβαση στο ριζικό σύστημα αρχείων· δεν διατίθεται ως Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -87,7 +87,7 @@
     {
         "id": "bleachbit",
         "name": "BleachBit",
-        "description": "Free disk space and maintain privacy",
+        "description": "Ελευθερώστε χώρο στο δίσκο και διατηρήστε το απόρρητο",
         "category": "System",
         "targets": {
             "ubuntu": "bleachbit",
@@ -98,7 +98,7 @@
             "nix": "bleachbit",
             "flatpak": "org.bleachbit.BleachBit"
         },
-        "unavailableReason": "BleachBit is not available as a Snap package.",
+        "unavailableReason": "Το BleachBit δεν διατίθεται ως πακέτο Snap.",
         "icon": {
             "type": "url",
             "url": "https://raw.githubusercontent.com/chocolatey-community/chocolatey-packages/782707302851e7935c4a5a3e48e27140c774fa78/icons/bleachbit.svg"
@@ -107,7 +107,7 @@
     {
         "id": "flameshot",
         "name": "Flameshot",
-        "description": "Powerful screenshot tool with annotation",
+        "description": "Ισχυρό εργαλείο δημιουργίας στιγμιότυπων οθόνης με δυνατότητα προσθήκης σχολίων",
         "category": "System",
         "targets": {
             "ubuntu": "flameshot",
@@ -119,7 +119,7 @@
             "flatpak": "org.flameshot.Flameshot",
             "homebrew": "--cask flameshot"
         },
-        "unavailableReason": "Flameshot is not available as a Snap package.",
+        "unavailableReason": "Το Flameshot δεν διατίθεται ως πακέτο Snap.",
         "icon": {
             "type": "url",
             "url": "https://raw.githubusercontent.com/flameshot-org/flameshot/master/data/img/app/flameshot.svg"
@@ -128,7 +128,7 @@
     {
         "id": "gnometweaks",
         "name": "GNOME Tweaks",
-        "description": "Advanced settings and customization for GNOME",
+        "description": "Προηγμένες ρυθμίσεις και προσαρμογή για το GNOME",
         "category": "System",
         "targets": {
             "ubuntu": "gnome-tweaks",
@@ -138,7 +138,7 @@
             "opensuse": "gnome-tweaks",
             "nix": "gnome-tweaks"
         },
-        "unavailableReason": "GNOME Tweaks is not available via Flatpak or Snap.",
+        "unavailableReason": "Το GNOME Tweaks δεν είναι διαθέσιμο μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -149,7 +149,7 @@
     {
         "id": "dconf",
         "name": "dconf Editor",
-        "description": "Low-level configuration editor for GNOME",
+        "description": "Επεξεργαστής ρυθμίσεων χαμηλού επιπέδου για το GNOME",
         "category": "System",
         "targets": {
             "ubuntu": "dconf-editor",
@@ -159,7 +159,7 @@
             "opensuse": "dconf-editor",
             "nix": "dconf-editor"
         },
-        "unavailableReason": "dconf Editor is not available via Flatpak or Snap.",
+        "unavailableReason": "Το dconf Editor δεν είναι διαθέσιμο μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -170,7 +170,7 @@
     {
         "id": "borgbackup",
         "name": "BorgBackup",
-        "description": "Deduplicating backup program with compression",
+        "description": "Πρόγραμμα δημιουργίας αντιγράφων ασφαλείας με απομάκρυνση διπλών αρχείων και συμπίεση",
         "category": "System",
         "targets": {
             "ubuntu": "borgbackup",
@@ -181,7 +181,7 @@
             "nix": "borgbackup",
             "homebrew": "borgbackup"
         },
-        "unavailableReason": "BorgBackup is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το BorgBackup είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -192,7 +192,7 @@
     {
         "id": "restic",
         "name": "Restic",
-        "description": "Fast, secure, efficient backup program",
+        "description": "Γρήγορο, ασφαλές και αποτελεσματικό πρόγραμμα δημιουργίας αντιγράφων ασφαλείας",
         "category": "System",
         "targets": {
             "ubuntu": "restic",
@@ -203,7 +203,7 @@
             "nix": "restic",
             "homebrew": "restic"
         },
-        "unavailableReason": "Restic is a CLI tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το Restic είναι ένα εργαλείο γραμμής εντολών και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -214,7 +214,7 @@
     {
         "id": "flatpaksupport",
         "name": "Flatpak",
-        "description": "Universal app packaging and sandboxing framework",
+        "description": "Πλαίσιο συσκευασίας και sandboxing για εφαρμογές γενικής χρήσης",
         "category": "System",
         "targets": {
             "ubuntu": "flatpak",
@@ -224,7 +224,7 @@
             "opensuse": "flatpak",
             "nix": "flatpak"
         },
-        "unavailableReason": "Flatpak is a system package manager and not available via Flatpak or Snap.",
+        "unavailableReason": "Το Flatpak είναι ένας διαχειριστής πακέτων συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -235,7 +235,7 @@
     {
         "id": "filelight",
         "name": "Filelight",
-        "description": "Interactive disk usage visualization by KDE",
+        "description": "Διαδραστική απεικόνιση της χρήσης του δίσκου από το KDE",
         "category": "System",
         "targets": {
             "ubuntu": "filelight",
@@ -257,7 +257,7 @@
     {
         "id": "conky",
         "name": "Conky",
-        "description": "Highly configurable desktop system monitor",
+        "description": "Οθόνη υπολογιστή με πολλές δυνατότητες ρύθμισης",
         "category": "System",
         "targets": {
             "ubuntu": "conky-all",
@@ -267,7 +267,7 @@
             "opensuse": "conky",
             "nix": "conky"
         },
-        "unavailableReason": "Conky is a system tool and not available via Flatpak or Snap.",
+        "unavailableReason": "Το Conky είναι ένα εργαλείο συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -278,7 +278,7 @@
     {
         "id": "fsearch",
         "name": "FSearch",
-        "description": "Fast file search utility, inspired by Everything",
+        "description": "Ένα πρόγραμμα γρήγορης αναζήτησης αρχείων, εμπνευσμένο από το Everything",
         "category": "System",
         "targets": {
             "ubuntu": "fsearch",
@@ -288,7 +288,7 @@
             "nix": "fsearch",
             "flatpak": "com.github.cboxdoerfer.FSearch"
         },
-        "unavailableReason": "Not in Fedora official repos. Available via [COPR](https://copr.fedorainfracloud.org/coprs/cboxdoerfer/fsearch/) but may have dependency issues on Fedora 41+.",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια του Fedora. Διατίθεται μέσω [COPR](https://copr.fedorainfracloud.org/coprs/cboxdoerfer/fsearch/) αλλά ενδέχεται να παρουσιάσει προβλήματα εξαρτήσεων στις εκδόσεις Fedora 41+.",
         "icon": {
             "type": "url",
             "url": "https://dl.flathub.org/media/io/github/cboxdoerfer.FSearch/5dfcd05a3d0147745dccd8477b238210/icons/128x128/io.github.cboxdoerfer.FSearch.png"
@@ -297,7 +297,7 @@
     {
         "id": "resources",
         "name": "Resources",
-        "description": "Modern system resource monitor",
+        "description": "Σύγχρονος ελεγκτής πόρων συστήματος",
         "category": "System",
         "targets": {
             "arch": "resources",
@@ -312,7 +312,7 @@
     {
         "id": "cpux",
         "name": "CPU-X",
-        "description": "System profiling and monitoring (CPU-Z alternative)",
+        "description": "Δημιουργία προφίλ και παρακολούθηση συστήματος (εναλλακτική λύση του CPU-Z)",
         "category": "System",
         "targets": {
             "ubuntu": "cpu-x",
@@ -330,7 +330,7 @@
     {
         "id": "missioncenter",
         "name": "Mission Center",
-        "description": "Fast, modern system monitor with GPU support",
+        "description": "Γρήγορο, σύγχρονο πρόγραμμα παρακολούθησης συστήματος με υποστήριξη GPU",
         "category": "System",
         "targets": {
             "arch": "mission-center",
@@ -338,7 +338,7 @@
             "flatpak": "io.missioncenter.MissionCenter",
             "snap": "mission-center"
         },
-        "unavailableReason": "Not in most official repos. Use [Flatpak](https://flathub.org/apps/io.github.MissionCenter.MissionCenter) or see [Mission Center](https://gitlab.com/mission-center-devs/mission-center/) for more information.",
+        "unavailableReason": "Δεν περιλαμβάνεται στα περισσότερα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/io.github.MissionCenter.MissionCenter) ή δείτε [Mission Center](https://gitlab.com/mission-center-devs/mission-center/) για περισότερες πληροφορίες.",
         "icon": {
             "type": "url",
             "url": "https://gitlab.com/mission-center-devs/mission-center/-/raw/main/data/icons/hicolor/scalable/apps/io.missioncenter.MissionCenter.svg"
@@ -347,7 +347,7 @@
     {
         "id": "openrgb",
         "name": "OpenRGB",
-        "description": "Open source RGB lighting control that does not depend on manufacturer software. Supports a wide variety of RGB components, peripherals, accessories, and lights across many manufacturers.",
+        "description": "Λύση ελεύθερου λογισμικού για τον έλεγχο του φωτισμού RGB που δεν εξαρτάται από το λογισμικό του κατασκευαστή. Υποστηρίζει μεγάλη ποικιλία εξαρτημάτων, περιφερειακών, αξεσουάρ και φωτιστικών RGB από πολλούς διαφορετικούς κατασκευαστές.",
         "category": "System",
         "targets": {
             "arch": "openrgb",
@@ -357,7 +357,7 @@
             "homebrew": "--cask openrgb",
             "flatpak": "org.openrgb.OpenRGB"
         },
-        "unavailableReason": "Not in available in Snap. Use the [Flatpak version](https://flathub.org/en/apps/org.openrgb.OpenRGB) instead. Available on Debian 14/Sid and Ubuntu 25.11 or later Official repos as `openrgb`",
+        "unavailableReason": "Δεν είναι διαθέσιμο στο Snap. Χρησιμοποιήστε το [Flatpak version](https://flathub.org/en/apps/org.openrgb.OpenRGB) αντ'αυτού. Διατίθεται στα επίσημα αποθετήρια του Debian 14/Sid και του Ubuntu 25.11 ή νεότερης έκδοσης ως `openrgb`",
         "icon": {
             "type": "url",
             "url": "https://avatars.githubusercontent.com/u/1051772?s=48&v=4"
