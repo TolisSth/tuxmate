@@ -2,7 +2,7 @@
     {
         "id": "vlc",
         "name": "VLC",
-        "description": "Universal media player that plays any format",
+        "description": "Πολυχρηστικό πρόγραμμα αναπαραγωγής πολυμέσων που υποστηρίζει όλες τις μορφές αρχείων",
         "category": "Media",
         "targets": {
             "ubuntu": "vlc",
@@ -25,7 +25,7 @@
     {
         "id": "mpv",
         "name": "mpv",
-        "description": "Lightweight and highly configurable media player",
+        "description": "Ελαφρύ και εξαιρετικά παραμετροποιήσιμο πρόγραμμα αναπαραγωγής πολυμέσων",
         "category": "Media",
         "targets": {
             "ubuntu": "mpv",
@@ -48,7 +48,7 @@
     {
         "id": "celluloid",
         "name": "Celluloid",
-        "description": "Simple GTK frontend for the mpv player",
+        "description": "Απλό περιβάλλον εργασίας GTK για τον αναπαραγωγέα mpv",
         "category": "Media",
         "targets": {
             "ubuntu": "celluloid",
@@ -59,7 +59,7 @@
             "nix": "celluloid",
             "flatpak": "io.github.celluloid_player.Celluloid"
         },
-        "unavailableReason": "Celluloid is not available as a Snap package.",
+        "unavailableReason": "Το Celluloid δεν διατίθεται ως πακέτο Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -70,7 +70,7 @@
     {
         "id": "strawberry",
         "name": "Strawberry",
-        "description": "Music player for local audio collection",
+        "description": "Πρόγραμμα αναπαραγωγής μουσικής για τοπική συλλογή αρχείων ήχου",
         "category": "Media",
         "targets": {
             "ubuntu": "strawberry",
@@ -81,7 +81,7 @@
             "nix": "strawberry",
             "flatpak": "org.strawberrymusicplayer.strawberry"
         },
-        "unavailableReason": "Strawberry is not available as a Snap package.",
+        "unavailableReason": "Το Strawberry δεν διατίθεται ως πακέτο Snap.",
         "icon": {
             "type": "url",
             "url": "https://www.strawberrymusicplayer.org/pictures/strawberry64.png"
@@ -90,7 +90,7 @@
     {
         "id": "spotify",
         "name": "Spotify",
-        "description": "Popular music streaming service",
+        "description": "Δημοφιλής υπηρεσία ροής μουσικής",
         "category": "Media",
         "targets": {
             "arch": "spotify",
@@ -99,7 +99,7 @@
             "snap": "spotify",
             "homebrew": "--cask spotify"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/apps/details/com.spotify.Client) or [Snap](https://snapcraft.io/spotify) or follow instructions at [spotify.com/download/linux](https://www.spotify.com/download/linux/).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/details/com.spotify.Client) ή [Snap](https://snapcraft.io/spotify) ή ακολουθήστε τις οδηγίες στη διεύθυνση [spotify.com/download/linux](https://www.spotify.com/download/linux/).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -110,7 +110,7 @@
     {
         "id": "audacity",
         "name": "Audacity",
-        "description": "Free open-source audio editor and recorder",
+        "description": "Δωρεάν πρόγραμμα ανοιχτού κώδικα επεξεργασίας και εγγραφής ήχου",
         "category": "Media",
         "targets": {
             "ubuntu": "audacity",
@@ -133,7 +133,7 @@
     {
         "id": "kdenlive",
         "name": "Kdenlive",
-        "description": "Powerful open-source video editor by KDE",
+        "description": "Ισχυρό πρόγραμμα επεξεργασίας βίντεο ανοιχτού κώδικα από το KDE",
         "category": "Media",
         "targets": {
             "ubuntu": "kdenlive",
@@ -156,7 +156,7 @@
     {
         "id": "obs",
         "name": "OBS Studio",
-        "description": "Industry-standard streaming and recording software",
+        "description": "Λογισμικό ροής και εγγραφής που ανταποκρίνεται στα πρότυπα του κλάδου",
         "category": "Media",
         "targets": {
             "ubuntu": "obs-studio",
@@ -179,7 +179,7 @@
     {
         "id": "ffmpeg",
         "name": "FFmpeg",
-        "description": "Swiss army knife of video/audio processing",
+        "description": "Το πολυεργαλείο της επεξεργασίας βίντεο και ήχου",
         "category": "Media",
         "targets": {
             "ubuntu": "ffmpeg",
@@ -190,7 +190,7 @@
             "nix": "ffmpeg",
             "homebrew": "ffmpeg"
         },
-        "unavailableReason": "FFmpeg is a system library and not available via Flatpak or Snap.",
+        "unavailableReason": "Το FFmpeg είναι μια βιβλιοθήκη συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -201,7 +201,7 @@
     {
         "id": "handbrake",
         "name": "HandBrake",
-        "description": "Open-source video transcoder for any format",
+        "description": "Μετατροπέας βίντεο ανοιχτού κώδικα για οποιαδήποτε μορφή",
         "category": "Media",
         "targets": {
             "ubuntu": "handbrake",
@@ -213,7 +213,7 @@
             "snap": "handbrake-jz",
             "homebrew": "handbrake"
         },
-        "unavailableReason": "HandBrake is not in official Fedora repos. Use [Flatpak](https://flathub.org/apps/details/fr.handbrake.ghb) or [Snap](https://snapcraft.io/handbrake-jz) instead.",
+        "unavailableReason": "Το HandBrake δεν περιλαμβάνεται στα επίσημα αποθετήρια του Fedora. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/details/fr.handbrake.ghb) ή [Snap](https://snapcraft.io/handbrake-jz) αντ'αυτού.",
         "icon": {
             "type": "iconify",
             "set": "mdi",
@@ -224,7 +224,7 @@
     {
         "id": "stremio",
         "name": "Stremio",
-        "description": "Modern media center with streaming addons",
+        "description": "Σύγχρονο κέντρο πολυμέσων με προσθήκες για streaming",
         "category": "Media",
         "targets": {
             "arch": "stremio",
@@ -232,7 +232,7 @@
             "flatpak": "com.stremio.Stremio",
             "homebrew": "--cask stremio"
         },
-        "unavailableReason": "Only available via [AUR](https://aur.archlinux.org/packages/stremio) or [Flatpak](https://flathub.org/apps/details/com.stremio.Stremio), see [stremio.com/downloads](https://www.stremio.com/downloads) for more info.",
+        "unavailableReason": "Διατίθεται μόνο μέσω [AUR](https://aur.archlinux.org/packages/stremio) ή [Flatpak](https://flathub.org/apps/details/com.stremio.Stremio), δείτε [stremio.com/downloads](https://www.stremio.com/downloads) για περισότερες πληροφορίες.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -243,7 +243,7 @@
     {
         "id": "kodi",
         "name": "Kodi",
-        "description": "Open-source home theater and media center",
+        "description": "Σύστημα οικιακού κινηματογράφου και κέντρο πολυμέσων ανοιχτού κώδικα",
         "category": "Media",
         "targets": {
             "ubuntu": "kodi",
@@ -266,7 +266,7 @@
     {
         "id": "haruna",
         "name": "Haruna",
-        "description": "Modern Qt/QML video player powered by mpv",
+        "description": "Σύγχρονος παίκτης βίντεο Qt/QML με την υποστήριξη του mpv",
         "category": "Media",
         "targets": {
             "ubuntu": "haruna",
@@ -288,7 +288,7 @@
     {
         "id": "shortwave",
         "name": "Shortwave",
-        "description": "Listen to internet radio stations worldwide",
+        "description": "Ακούστε διαδικτυακούς ραδιοφωνικούς σταθμούς από όλο τον κόσμο",
         "category": "Media",
         "targets": {
             "ubuntu": "shortwave",
@@ -311,14 +311,14 @@
     {
         "id": "parabolic",
         "name": "Parabolic",
-        "description": "Simple YouTube video and audio downloader",
+        "description": "Ένα απλό πρόγραμμα λήψης βίντεο και αρχείων ήχου από το YouTube",
         "category": "Media",
         "targets": {
             "nix": "parabolic",
             "flatpak": "org.nickvision.tubeconverter",
             "snap": "tube-converter"
         },
-        "unavailableReason": "Not in most official repos. Use [Flatpak](https://flathub.org/apps/org.nickvision.tubeconverter) or [Snap](https://snapcraft.io/tube-converter).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα περισσότερα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/org.nickvision.tubeconverter) ή [Snap](https://snapcraft.io/tube-converter).",
         "icon": {
             "type": "url",
             "url": "https://dl.flathub.org/media/org/nickvision/tubeconverter/fdcc995607100afabed728e47cfd5d99/icons/128x128/org.nickvision.tubeconverter.png"
