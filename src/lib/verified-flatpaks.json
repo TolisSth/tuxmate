@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAt": "2026-05-08T00:06:27.524Z"
+    "fetchedAt": "2026-05-08T00:18:16.730Z"
   },
   "count": 709,
   "apps": [
@@ -200,6 +200,7 @@
     "de.schmidhuberj.DieBahn",
     "de.schmidhuberj.tubefeeder",
     "de.til7701.Puzzled",
+    "de.wwwtech.gitte",
     "de.z_ray.OptimusUI",
     "dev.bragefuglseth.Fretboard",
     "dev.bragefuglseth.Keypunch",
@@ -316,7 +317,6 @@
     "io.github.gopher64.gopher64",
     "io.github.hedge_dev.hedgemodmanager",
     "io.github.hkdb.Aerion",
-    "io.github.htkhiem.Euphonica",
     "io.github.ilya_zlobintsev.LACT",
     "io.github.jeffshee.Hidamari",
     "io.github.jliljebl.Flowblade",
@@ -408,6 +408,7 @@
     "io.qt.QtCreator",
     "io.sourceforge.pysolfc.PySolFC",
     "io.speedofsound.SpeedOfSound",
+    "it.fabiodistasio.AntaresSQL",
     "it.mijorus.gearlever",
     "it.mijorus.smile",
     "it.mijorus.whisper",
@@ -597,7 +598,6 @@
     "org.kde.kshisen",
     "org.kde.kstars",
     "org.kde.ktorrent",
-    "org.kde.ktouch",
     "org.kde.kweather",
     "org.kde.kwrite",
     "org.kde.labplot",
@@ -610,6 +610,7 @@
     "org.kde.qrca",
     "org.kde.skanlite",
     "org.kde.skanpage",
+    "org.kde.subtitlecomposer",
     "org.kde.yakuake",
     "org.keepassxc.KeePassXC",
     "org.kicad.KiCad",
@@ -711,7 +712,6 @@
     "vn.hoabinh.quan.CoBang",
     "website.i2pd.i2pd",
     "xyz.ketok.Speedtest",
-    "xyz.z3ntu.razergenie",
-    "zone.dos.Browser"
+    "xyz.z3ntu.razergenie"
   ]
 }

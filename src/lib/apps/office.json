@@ -2,7 +2,7 @@
     {
         "id": "libreoffice",
         "name": "LibreOffice",
-        "description": "Full-featured open-source office suite",
+        "description": "Πλήρης σουίτα γραφείου ανοιχτού κώδικα",
         "category": "Office",
         "targets": {
             "ubuntu": "libreoffice",
@@ -25,7 +25,7 @@
     {
         "id": "onlyoffice",
         "name": "OnlyOffice",
-        "description": "Modern office suite with MS Office compatibility",
+        "description": "Σύγχρονη σουίτα γραφείου με συμβατότητα με το MS Office",
         "category": "Office",
         "targets": {
             "arch": "onlyoffice-bin",
@@ -34,7 +34,7 @@
             "snap": "onlyoffice-desktopeditors",
             "homebrew": "--cask onlyoffice"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/apps/details/org.onlyoffice.desktopeditors) or [Snap](https://snapcraft.io/onlyoffice-desktopeditors) or download from [onlyoffice.com/desktop](https://www.onlyoffice.com/desktop.aspx).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/details/org.onlyoffice.desktopeditors) ή [Snap](https://snapcraft.io/onlyoffice-desktopeditors) ή κατεβάστε από [onlyoffice.com/desktop](https://www.onlyoffice.com/desktop.aspx).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -45,7 +45,7 @@
     {
         "id": "obsidian",
         "name": "Obsidian",
-        "description": "Popular Markdown-based knowledge management app",
+        "description": "Δημοφιλής εφαρμογή διαχείρισης γνώσης βασισμένη στη γλώσσα Markdown",
         "category": "Office",
         "targets": {
             "arch": "obsidian",
@@ -54,7 +54,7 @@
             "snap": "obsidian --classic",
             "homebrew": "--cask obsidian"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/apps/details/md.obsidian.Obsidian) or [Snap](https://snapcraft.io/obsidian) or download from [obsidian.md/download](https://obsidian.md/download).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/details/md.obsidian.Obsidian) ή [Snap](https://snapcraft.io/obsidian) ή κατεβάστε από [obsidian.md/download](https://obsidian.md/download).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -65,7 +65,7 @@
     {
         "id": "logseq",
         "name": "Logseq",
-        "description": "Open-source outliner for knowledge management",
+        "description": "Πρόγραμμα ανοιχτού κώδικα για τη διαχείριση γνώσης",
         "category": "Office",
         "targets": {
             "arch": "logseq-desktop-bin",
@@ -74,7 +74,7 @@
             "snap": "logseq",
             "homebrew": "--cask logseq"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/apps/details/com.logseq.Logseq) or [Snap](https://snapcraft.io/logseq) or download from [logseq.com](https://logseq.com/downloads).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/details/com.logseq.Logseq) ή [Snap](https://snapcraft.io/logseq) ή κατεβάστε από [logseq.com](https://logseq.com/downloads).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -85,7 +85,7 @@
     {
         "id": "joplin",
         "name": "Joplin",
-        "description": "Open-source note-taking with sync and encryption",
+        "description": "Λήψη σημειώσεων ανοιχτού κώδικα με συγχρονισμό και κρυπτογράφηση",
         "category": "Office",
         "targets": {
             "arch": "joplin-appimage",
@@ -94,7 +94,7 @@
             "snap": "joplin-desktop",
             "homebrew": "--cask joplin"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/apps/details/net.cozic.joplin_desktop) or [Snap](https://snapcraft.io/joplin-desktop) or install from [joplinapp.org](https://joplinapp.org/help/install/).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/details/net.cozic.joplin_desktop) ή [Snap](https://snapcraft.io/joplin-desktop) ή κατεβάστε από [joplinapp.org](https://joplinapp.org/help/install/).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -105,7 +105,7 @@
     {
         "id": "okular",
         "name": "Okular",
-        "description": "Universal document viewer by KDE",
+        "description": "Πρόγραμμα προβολής εγγράφων γενικής χρήσης από το KDE",
         "category": "Office",
         "targets": {
             "ubuntu": "okular",
@@ -127,7 +127,7 @@
     {
         "id": "zathura",
         "name": "Zathura",
-        "description": "Vim-style minimal PDF/document viewer",
+        "description": "Μινιμαλιστικό πρόγραμμα προβολής PDF/εγγράφων σε στυλ Vim",
         "category": "Office",
         "targets": {
             "ubuntu": "zathura",
@@ -137,7 +137,7 @@
             "opensuse": "zathura",
             "nix": "zathura"
         },
-        "unavailableReason": "Zathura is not available via Flatpak or Snap.",
+        "unavailableReason": "Το Zathura δεν είναι διαθέσιμο μέσω Flatpak ή Snap.",
         "icon": {
             "type": "url",
             "url": "https://raw.githubusercontent.com/TrixieUA/MoreWaita-copr-trixieua/e5bed029d63d4c14f1aba811152f3f0bf473a4bc/scalable/apps/zathura.svg"
@@ -146,7 +146,7 @@
     {
         "id": "calibre",
         "name": "Calibre",
-        "description": "Complete e-book library management solution",
+        "description": "Ολοκληρωμένη λύση διαχείρισης βιβλιοθήκης ηλεκτρονικών βιβλίων",
         "category": "Office",
         "targets": {
             "ubuntu": "calibre",
@@ -158,7 +158,7 @@
             "flatpak": "com.calibre_ebook.calibre",
             "homebrew": "--cask calibre"
         },
-        "unavailableReason": "Calibre is not available as a Snap package.",
+        "unavailableReason": "Το Calibre δεν είναι διαθέσιμο ως Snap πακέτο.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -169,7 +169,7 @@
     {
         "id": "xournalpp",
         "name": "Xournal++",
-        "description": "Handwriting and PDF annotation app",
+        "description": "Εφαρμογή για χειρόγραφες σημειώσεις και σχολιασμό αρχείων PDF",
         "category": "Office",
         "targets": {
             "ubuntu": "xournalpp",
@@ -181,7 +181,7 @@
             "flatpak": "com.github.xournalpp.xournalpp",
             "homebrew": "--cask xournal++"
         },
-        "unavailableReason": "Xournal++ is not available as a Snap package.",
+        "unavailableReason": "Το Xournal++ δεν είναι διαθέσιμο ως Snap πακέτο.",
         "icon": {
             "type": "iconify",
             "set": "vscode-icons",
@@ -191,7 +191,7 @@
     {
         "id": "zotero",
         "name": "Zotero",
-        "description": "Research reference manager and citation tool",
+        "description": "Πρόγραμμα διαχείρισης βιβλιογραφικών αναφορών και εργαλείο αναφορών",
         "category": "Office",
         "targets": {
             "arch": "zotero-bin",
@@ -201,7 +201,7 @@
             "snap": "zotero-snap",
             "homebrew": "--cask zotero"
         },
-        "unavailableReason": "Not in official Ubuntu/Debian repos. Use [Flatpak](https://flathub.org/apps/org.zotero.Zotero)/[Snap](https://snapcraft.io/zotero-snap) or download from [zotero.org](https://www.zotero.org/download/).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια του Ubuntu/Debian. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/org.zotero.Zotero)/[Snap](https://snapcraft.io/zotero-snap) ή κατεβάστε από [zotero.org](https://www.zotero.org/download/).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -212,7 +212,7 @@
     {
         "id": "trilium",
         "name": "Trilium Notes",
-        "description": "Hierarchical note-taking app with powerful features",
+        "description": "Εφαρμογή δημιουργίας σημειώσεων με ιεραρχική δομή και ισχυρές λειτουργίες",
         "category": "Office",
         "targets": {
             "arch": "trilium-bin",
@@ -220,7 +220,7 @@
             "flatpak": "com.github.zadam.trilium",
             "homebrew": "--cask trilium-notes"
         },
-        "unavailableReason": "Not in official repos. Use [Flatpak](https://flathub.org/apps/com.github.zadam.trilium) or download from [github.com/zadam/trilium](https://github.com/zadam/trilium/releases).",
+        "unavailableReason": "Δεν περιλαμβάνεται στα επίσημα αποθετήρια. Χρησιμοποιήστε [Flatpak](https://flathub.org/apps/com.github.zadam.trilium) ή κατεβάστε από [github.com/zadam/trilium](https://github.com/zadam/trilium/releases).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
