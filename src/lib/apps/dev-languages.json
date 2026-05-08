@@ -2,7 +2,7 @@
     {
         "id": "python3",
         "name": "Python 3",
-        "description": "Popular beginner-friendly programming language",
+        "description": "Δημοφιλής γλώσσα προγραμματισμού κατάλληλη για αρχάριους",
         "category": "Dev: Languages",
         "targets": {
             "ubuntu": "python3",
@@ -13,7 +13,7 @@
             "nix": "python3",
             "homebrew": "python@3.12"
         },
-        "unavailableReason": "Python 3 is a system package and not available via Flatpak or Snap.",
+        "unavailableReason": "Το Python 3 είναι ένα πακέτο συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -24,7 +24,7 @@
     {
         "id": "nodejs",
         "name": "Node.js",
-        "description": "Server-side JavaScript runtime environment",
+        "description": "Περιβάλλον εκτέλεσης JavaScript από την πλευρά του διακομιστή",
         "category": "Dev: Languages",
         "targets": {
             "ubuntu": "nodejs",
@@ -36,7 +36,7 @@
             "snap": "node --classic",
             "homebrew": "node"
         },
-        "unavailableReason": "Node.js is not available as a Flatpak or Snap.",
+        "unavailableReason": "Το Node.js δεν είναι διαθέσιμο ως Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -47,7 +47,7 @@
     {
         "id": "go",
         "name": "Go",
-        "description": "Fast compiled programming language by Google",
+        "description": "Γρήγορη γλώσσα προγραμματισμού από την Google",
         "category": "Dev: Languages",
         "targets": {
             "ubuntu": "golang",
@@ -59,7 +59,7 @@
             "snap": "go --classic",
             "homebrew": "go"
         },
-        "unavailableReason": "Go is not available as a Flatpak package.",
+        "unavailableReason": "Το Go δεν διατίθεται ως πακέτο Flatpak.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -70,7 +70,7 @@
     {
         "id": "rust",
         "name": "Rust",
-        "description": "Memory-safe systems programming language",
+        "description": "Γλώσσα προγραμματισμού συστημάτων με ασφάλεια μνήμης",
         "category": "Dev: Languages",
         "targets": {
             "arch": "rustup",
@@ -80,7 +80,7 @@
             "snap": "rustup --classic",
             "homebrew": "rust"
         },
-        "unavailableReason": "Install via [rustup.rs](https://rustup.rs) on Ubuntu and Debian.",
+        "unavailableReason": "Κατεβάστε μέσω [rustup.rs](https://rustup.rs) σε Ubuntu και Debian.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -91,7 +91,7 @@
     {
         "id": "ruby",
         "name": "Ruby",
-        "description": "Dynamic language known for elegant syntax",
+        "description": "Δυναμική γλώσσα γνωστή για την κομψή σύνταξή της",
         "category": "Dev: Languages",
         "targets": {
             "ubuntu": "ruby",
@@ -103,7 +103,7 @@
             "snap": "ruby --classic",
             "homebrew": "ruby"
         },
-        "unavailableReason": "Ruby is a system package and not available via Flatpak or Snap.",
+        "unavailableReason": "Το Ruby είναι ένα πακέτο συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -114,7 +114,7 @@
     {
         "id": "php",
         "name": "PHP",
-        "description": "Popular web server-side scripting language",
+        "description": "Δημοφιλής γλώσσα προγραμματισμού από την πλευρά του διακομιστή",
         "category": "Dev: Languages",
         "targets": {
             "ubuntu": "php",
@@ -125,7 +125,7 @@
             "nix": "php",
             "homebrew": "php"
         },
-        "unavailableReason": "PHP is a system package and not available via Flatpak or Snap.",
+        "unavailableReason": "Το PHP είναι ένα πακέτο συστήματος και δεν διατίθεται μέσω Flatpak ή Snap.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -136,7 +136,7 @@
     {
         "id": "openjdk",
         "name": "OpenJDK",
-        "description": "Open-source Java Development Kit",
+        "description": "Κιτ ανάπτυξης Java ανοιχτού κώδικα",
         "category": "Dev: Languages",
         "targets": {
             "ubuntu": "openjdk-21-jdk",
@@ -147,7 +147,7 @@
             "nix": "openjdk",
             "homebrew": "openjdk"
         },
-        "unavailableReason": "System package — not available via Flatpak or Snap. Debian 12 (Bookworm) only has OpenJDK 17: `sudo apt install -y openjdk-17-jdk`. Debian 13 (Trixie) has OpenJDK 21 and 25: `sudo apt install -y openjdk-21-jdk`. Ubuntu 24.04 has versions 8, 11, 17, 21, and 25 available.",
+        "unavailableReason": "Πακέτο συστήματος — δεν διατίθεται μέσω Flatpak ή Snap. Το Debian 12 (Bookworm) διαθέτει μόνο το OpenJDK 17: `sudo apt install -y openjdk-17-jdk`. Το Debian 13 (Trixie) έχει OpenJDK 21 και 25: `sudo apt install -y openjdk-21-jdk`.Το Ubuntu 24.04 έχει τις εκδόσης 8, 11, 17, 21, και 25 διαθέσημες.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -158,7 +158,7 @@
     {
         "id": "deno",
         "name": "Deno",
-        "description": "Secure TypeScript/JavaScript runtime by Node creator",
+        "description": "Ασφαλές περιβάλλον εκτέλεσης TypeScript/JavaScript από τον δημιουργό του Node",
         "category": "Dev: Languages",
         "targets": {
             "arch": "deno",
@@ -166,7 +166,7 @@
             "nix": "deno",
             "homebrew": "deno"
         },
-        "unavailableReason": "Install via `curl -fsSL https://deno.land/install.sh | sh` on other distros.",
+        "unavailableReason": "Κατεβάστε μέσο `curl -fsSL https://deno.land/install.sh | sh` σε άλλες διανομές.",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
@@ -177,14 +177,14 @@
     {
         "id": "bun",
         "name": "Bun",
-        "description": "Ultra-fast JavaScript runtime and bundler",
+        "description": "Εξαιρετικά γρήγορο περιβάλλον εκτέλεσης και εργαλείο συσκευασίας JavaScript",
         "category": "Dev: Languages",
         "targets": {
             "arch": "bun",
             "nix": "bun",
             "homebrew": "bun"
         },
-        "unavailableReason": "Not in most package managers. Install via official script: `curl -fsSL https://bun.sh/install | bash`. More info at [bun.sh](https://bun.sh/).",
+        "unavailableReason": "Δεν περιλαμβάνεται στους περισσότερους διαχειριστές πακέτων. Εγκαταστήστε το μέσω του επίσημου σενάριου: `curl -fsSL https://bun.sh/install | bash`. Περισότερες πληροφορίες στο [bun.sh](https://bun.sh/).",
         "icon": {
             "type": "iconify",
             "set": "logos",
@@ -194,7 +194,7 @@
     {
         "id": "npm",
         "name": "npm",
-        "description": "JavaScript package manager",
+        "description": "Διαχειριστής πακέτων JavaScript",
         "category": "Dev: Languages",
         "targets": {
             "ubuntu": "npm",
@@ -206,7 +206,7 @@
             "snap": "node --classic",
             "homebrew": "node"
         },
-        "unavailableReason": "Usually installed with Node.js. See [nodejs.org](https://nodejs.org/).",
+        "unavailableReason": "Συνήθως εγκαθίσταται μαζί με το Node.js. Δείτε [nodejs.org](https://nodejs.org/).",
         "icon": {
             "type": "iconify",
             "set": "logos",
@@ -216,7 +216,7 @@
     {
         "id": "pnpm",
         "name": "pnpm",
-        "description": "Fast, disk space efficient package manager",
+        "description": "Γρήγορος διαχειριστής πακέτων που αξιοποιεί αποτελεσματικά τον χώρο στο δίσκο",
         "category": "Dev: Languages",
         "targets": {
             "arch": "pnpm",
@@ -225,7 +225,7 @@
             "nix": "pnpm",
             "homebrew": "pnpm"
         },
-        "unavailableReason": "Install via `curl -fsSL https://get.pnpm.io/install.sh | sh`. See [pnpm.io](https://pnpm.io/installation).",
+        "unavailableReason": "Κατεβάστε μέσω `curl -fsSL https://get.pnpm.io/install.sh | sh`. Δείτε [pnpm.io](https://pnpm.io/installation).",
         "icon": {
             "type": "iconify",
             "set": "logos",
@@ -235,7 +235,7 @@
     {
         "id": "yarn",
         "name": "yarn",
-        "description": "JavaScript package manager",
+        "description": "Διαχειριστής πακέτων JavaScript",
         "category": "Dev: Languages",
         "targets": {
             "ubuntu": "yarnpkg",
@@ -246,7 +246,7 @@
             "nix": "yarn",
             "homebrew": "yarn"
         },
-        "unavailableReason": "Install via `npm install --global yarn`. See [yarnpkg.com](https://yarnpkg.com/getting-started/install).",
+        "unavailableReason": "Κατεβάστε μέσω `npm install --global yarn`. Δείτε [yarnpkg.com](https://yarnpkg.com/getting-started/install).",
         "icon": {
             "type": "iconify",
             "set": "logos",
@@ -256,14 +256,14 @@
     {
         "id": "uv",
         "name": "uv",
-        "description": "Fast Python package manager",
+        "description": "Γρήγορος διαχειριστής πακέτων Python",
         "category": "Dev: Languages",
         "targets": {
             "arch": "uv",
             "nix": "uv",
             "homebrew": "uv"
         },
-        "unavailableReason": "Install via `curl -LsSf https://astral.sh/uv/install.sh | sh`. See [installation guide](https://docs.astral.sh/uv/getting-started/installation/).",
+        "unavailableReason": "Κατεβάστε μέσω `curl -LsSf https://astral.sh/uv/install.sh | sh`. Δείτε [installation guide](https://docs.astral.sh/uv/getting-started/installation/).",
         "icon": {
             "type": "iconify",
             "set": "simple-icons",
