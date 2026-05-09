@@ -102,8 +102,8 @@ export function Sidebar({
                 <div className="flex items-center gap-4">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                        src="/tuxmate.png"
-                        alt="TuxMate Logo"
+                        src="/unimate.png"
+                        alt="UniMate Logo"
                         className="w-16 h-16 object-contain shrink-0"
                     />
                     <div className="flex flex-col items-start">
