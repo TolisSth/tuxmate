@@ -113,7 +113,7 @@ export function Sidebar({
                         </h1>
                         <p className="text-[11px] text-[var(--text-muted)] tracking-[0.14em] uppercase mt-2 font-medium leading-none"
                             style={{ transition: 'color 0.5s' }}>
-                            Πρόγραμμα μαζικής εγκατάστασης εφαρμογών Linux
+                            Πρόγραμμα μαζικής εγκατάστασης εφαρμογών Linux βασισμένο στο TuxMate
                         </p>
                     </div>
                 </div>

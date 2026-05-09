@@ -284,7 +284,7 @@ export default function Home() {
                                     </h1>
                                     <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 mt-0.5">
                                         <p className="text-xs sm:text-sm text-[var(--text-muted)] tracking-widest uppercase opacity-80" style={{ transition: 'color 0.5s' }}>
-                                            Πρόγραμμα μαζικής εγκατάστασης εφαρμογών για Linux.
+                                            Πρόγραμμα μαζικής εγκατάστασης εφαρμογών για Linux βασισμένο στο TuxMate.
                                         </p>
                                         <span className="hidden sm:inline text-[var(--text-muted)] opacity-30 text-[10px]">•</span>
                                         <div className="hidden sm:block">

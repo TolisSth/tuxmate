@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAt": "2026-05-08T20:24:47.288Z"
+    "fetchedAt": "2026-05-09T16:36:54.201Z"
   },
   "count": 709,
   "apps": [
@@ -177,6 +177,7 @@
     "com.surfshark.Surfshark",
     "com.thincast.client",
     "com.tomjwatson.Emote",
+    "com.toolstack.Folio",
     "com.ulaa.Ulaa",
     "com.usebottles.bottles",
     "com.usebruno.Bruno",
@@ -284,7 +285,6 @@
     "io.github.bytezz.IPLookup",
     "io.github.cboxdoerfer.FSearch",
     "io.github.celluloid_player.Celluloid",
-    "io.github.cleomenezesjr.Serigy",
     "io.github.cosmic_utils.Examine",
     "io.github.cosmic_utils.camera",
     "io.github.daniacosta_dev.AuroraMediaPlayer",
@@ -309,7 +309,6 @@
     "io.github.flattool.Warehouse",
     "io.github.focustimerhq.FocusTimer",
     "io.github.forkgram.tdesktop",
-    "io.github.gaheldev.Millisecond",
     "io.github.getnf.embellish",
     "io.github.giantpinkrobots.bootqt",
     "io.github.giantpinkrobots.flatsweep",
@@ -337,7 +336,6 @@
     "io.github.meehow.Receiver",
     "io.github.mfat.sshpilot",
     "io.github.mhogomchungu.media-downloader",
-    "io.github.mihnea_radulescu.imagefanreloaded",
     "io.github.milkshiift.GoofCord",
     "io.github.mmarco94.tambourine",
     "io.github.mpc_qt.mpc-qt",
@@ -369,6 +367,7 @@
     "io.github.shonubot.Spruce",
     "io.github.sigmasd.stimulator",
     "io.github.streetpea.Chiaki4deck",
+    "io.github.sugarycandybar.Hosty",
     "io.github.swordpuffin.rewaita",
     "io.github.swordpuffin.wardrobe",
     "io.github.teacond.Morse",
@@ -388,7 +387,6 @@
     "io.github.xiaoyifang.goldendict_ng",
     "io.github.xyproto.zsnes",
     "io.github.yairm210.unciv",
-    "io.github.zaedus.spider",
     "io.github.zarestia_dev.rclone-manager",
     "io.github.zingytomato.netpeek",
     "io.gitlab.Goodvibes",
@@ -408,7 +406,6 @@
     "io.qt.QtCreator",
     "io.sourceforge.pysolfc.PySolFC",
     "io.speedofsound.SpeedOfSound",
-    "it.fabiodistasio.AntaresSQL",
     "it.mijorus.gearlever",
     "it.mijorus.smile",
     "it.mijorus.whisper",
@@ -575,12 +572,14 @@
     "org.kde.kalk",
     "org.kde.kalzium",
     "org.kde.kamoso",
+    "org.kde.kapman",
     "org.kde.kasts",
     "org.kde.kate",
     "org.kde.kcalc",
     "org.kde.kclock",
     "org.kde.kdenlive",
     "org.kde.kdf",
+    "org.kde.kfind",
     "org.kde.kget",
     "org.kde.kid3",
     "org.kde.kleopatra",
@@ -712,6 +711,7 @@
     "vn.hoabinh.quan.CoBang",
     "website.i2pd.i2pd",
     "xyz.ketok.Speedtest",
-    "xyz.z3ntu.razergenie"
+    "xyz.z3ntu.razergenie",
+    "zone.dos.Browser"
   ]
 }
