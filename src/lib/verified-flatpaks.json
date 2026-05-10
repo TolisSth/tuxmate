@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAt": "2026-05-09T17:19:24.848Z"
+    "fetchedAt": "2026-05-10T14:20:35.318Z"
   },
-  "count": 709,
+  "count": 710,
   "apps": [
     "ai.jan.Jan",
     "app.comaps.comaps",
@@ -54,6 +54,7 @@
     "com.brave.Browser",
     "com.cassidyjames.butler",
     "com.cassidyjames.dippi",
+    "com.chatterino.chatterino",
     "com.collaboraoffice.Office",
     "com.core447.StreamController",
     "com.daniel15.wcc",
@@ -177,7 +178,6 @@
     "com.surfshark.Surfshark",
     "com.thincast.client",
     "com.tomjwatson.Emote",
-    "com.toolstack.Folio",
     "com.ulaa.Ulaa",
     "com.usebottles.bottles",
     "com.usebruno.Bruno",
@@ -322,6 +322,7 @@
     "io.github.jonmagon.kdiskmark",
     "io.github.jorchube.monitorets",
     "io.github.josephmawa.Gauge",
+    "io.github.juancarlosbernal.FolderPlay",
     "io.github.kolunmi.Bazaar",
     "io.github.kukuruzka165.materialgram",
     "io.github.lainsce.Notejot",
@@ -345,7 +346,6 @@
     "io.github.nokse22.Exhibit",
     "io.github.nokse22.asciidraw",
     "io.github.nokse22.high-tide",
-    "io.github.nokse22.inspector",
     "io.github.nozwock.Packet",
     "io.github.nroduit.Weasis",
     "io.github.pantheon_tweaks.pantheon-tweaks",
@@ -353,6 +353,7 @@
     "io.github.plrigaux.sysd-manager",
     "io.github.pol_rivero.github-desktop-plus",
     "io.github.prateekmedia.appimagepool",
+    "io.github.quodlibet.QuodLibet",
     "io.github.qwersyk.Newelle",
     "io.github.radiolamp.mangojuice",
     "io.github.realmazharhussain.GdmSettings",
@@ -579,7 +580,6 @@
     "org.kde.kclock",
     "org.kde.kdenlive",
     "org.kde.kdf",
-    "org.kde.kfind",
     "org.kde.kget",
     "org.kde.kid3",
     "org.kde.kleopatra",
@@ -704,6 +704,7 @@
     "space.gaiasky.GaiaSky",
     "space.rirusha.Cassette",
     "studio.planetpeanut.Bobby",
+    "top.akizip.akizip",
     "tv.kodi.Kodi",
     "tv.plex.PlexDesktop",
     "tv.plex.PlexHTPC",
