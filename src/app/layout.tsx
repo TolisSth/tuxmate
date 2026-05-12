@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "UniMate",
-  description: "generate terminal commands to install your favorite apps on any Linux distribution",
+  description: "Generate terminal commands to install your favorite apps on any Linux distribution",
   openGraph: {
     title: "UniMate",
     description: "Generate install commands for 180+ apps on Ubuntu, Debian, Arch, Fedora, and more.",
