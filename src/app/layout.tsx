@@ -22,17 +22,17 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TuxMate - LINUX BULK APP INSTALLER",
-  description: "TuxMate helps you generate terminal commands to install your favorite apps on any Linux distribution. Select your distro, pick your apps, and get your install command.",
+  title: "UniMate",
+  description: "generate terminal commands to install your favorite apps on any Linux distribution",
   openGraph: {
-    title: "TuxMate - Linux Bulk App Installer",
+    title: "UniMate",
     description: "Generate install commands for 180+ apps on Ubuntu, Debian, Arch, Fedora, and more.",
     type: "website",
     url: "https://tuxmate.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TuxMate - Linux Bulk App Installer",
+    title: "UniMate",
     description: "Generate install commands for 180+ apps on any Linux distro.",
   },
 };

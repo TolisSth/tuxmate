@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAt": "2026-05-10T14:20:35.318Z"
+    "fetchedAt": "2026-05-12T20:38:29.261Z"
   },
   "count": 710,
   "apps": [
@@ -22,6 +22,7 @@
     "app.twintaillauncher.ttl",
     "app.xemu.xemu",
     "app.zen_browser.zen",
+    "ar.xjuan.Cambalache",
     "at.vintagestory.VintageStory",
     "be.alexandervanhee.gradia",
     "best.ellie.StartupConfiguration",
@@ -165,7 +166,6 @@
     "com.rcloneui.RcloneUI",
     "com.realm667.Wolfenstein_Blade_of_Agony",
     "com.redis.RedisInsight",
-    "com.rioterm.Rio",
     "com.rtosta.zapzap",
     "com.rustdesk.RustDesk",
     "com.saivert.pwvucontrol",
@@ -178,6 +178,7 @@
     "com.surfshark.Surfshark",
     "com.thincast.client",
     "com.tomjwatson.Emote",
+    "com.toolstack.Folio",
     "com.ulaa.Ulaa",
     "com.usebottles.bottles",
     "com.usebruno.Bruno",
@@ -195,7 +196,6 @@
     "de.haeckerfelix.AudioSharing",
     "de.haeckerfelix.Fragments",
     "de.haeckerfelix.Shortwave",
-    "de.k_bo.Televido",
     "de.leopoldluley.Clapgrep",
     "de.mediathekview.MediathekView",
     "de.schmidhuberj.DieBahn",
@@ -206,7 +206,6 @@
     "dev.bragefuglseth.Fretboard",
     "dev.bragefuglseth.Keypunch",
     "dev.deedles.Trayscale",
-    "dev.dergs.Tonearm",
     "dev.diegovsky.Riff",
     "dev.edfloreshz.Calculator",
     "dev.edfloreshz.CosmicTweaks",
@@ -255,10 +254,10 @@
     "io.frama.tractor.carburetor",
     "io.freetubeapp.FreeTube",
     "io.gdevelop.ide",
-    "io.github.AshBuk.FingerGo",
     "io.github.C_Yassin.FlameGet",
     "io.github.CyberTimon.RapidRAW",
     "io.github.DenysMb.Kontainer",
+    "io.github.Ethanscharlie.albumripper",
     "io.github.Faugus.faugus-launcher",
     "io.github.Foldex.AdwSteamGtk",
     "io.github.Geocld.XStreamingDesktop",
@@ -269,7 +268,6 @@
     "io.github.Qalculate",
     "io.github.Qalculate.qalculate-qt",
     "io.github.Soundux",
-    "io.github.TheWisker.Cavasik",
     "io.github.aandrew_me.ytdn",
     "io.github.alainm23.planify",
     "io.github.alescdb.mailviewer",
@@ -321,7 +319,6 @@
     "io.github.jliljebl.Flowblade",
     "io.github.jonmagon.kdiskmark",
     "io.github.jorchube.monitorets",
-    "io.github.josephmawa.Gauge",
     "io.github.juancarlosbernal.FolderPlay",
     "io.github.kolunmi.Bazaar",
     "io.github.kukuruzka165.materialgram",
@@ -331,6 +328,7 @@
     "io.github.limo_app.limo",
     "io.github.linx_systems.ClamUI",
     "io.github.lullabyX.sone",
+    "io.github.maniacx.BudsLink",
     "io.github.marco_calautti.DeltaPatcher",
     "io.github.martchus.syncthingtray",
     "io.github.martinrotter.rssguard",
@@ -348,6 +346,7 @@
     "io.github.nokse22.high-tide",
     "io.github.nozwock.Packet",
     "io.github.nroduit.Weasis",
+    "io.github.nuttyartist.notes",
     "io.github.pantheon_tweaks.pantheon-tweaks",
     "io.github.peazip.PeaZip",
     "io.github.plrigaux.sysd-manager",
@@ -407,6 +406,7 @@
     "io.qt.QtCreator",
     "io.sourceforge.pysolfc.PySolFC",
     "io.speedofsound.SpeedOfSound",
+    "it.fabiodistasio.AntaresSQL",
     "it.mijorus.gearlever",
     "it.mijorus.smile",
     "it.mijorus.whisper",
@@ -604,6 +604,7 @@
     "org.kde.marknote",
     "org.kde.merkuro",
     "org.kde.minuet",
+    "org.kde.neochat",
     "org.kde.okular",
     "org.kde.plasmatube",
     "org.kde.qrca",
@@ -712,7 +713,6 @@
     "vn.hoabinh.quan.CoBang",
     "website.i2pd.i2pd",
     "xyz.ketok.Speedtest",
-    "xyz.z3ntu.razergenie",
-    "zone.dos.Browser"
+    "xyz.z3ntu.razergenie"
   ]
 }

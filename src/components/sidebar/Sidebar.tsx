@@ -212,7 +212,7 @@ export function Sidebar({
                                         backgroundColor: `color-mix(in srgb, ${distroColor}, transparent 82%)`,
                                         color: distroColor,
                                     }}>
-                                    {selectedCount} app{selectedCount !== 1 ? 's' : ''}
+                                    {selectedCount} {selectedCount !== 1 ? 'εφαρμογές' : 'εφαρμογή'}
                                 </span>
                             )}
                         </div>
@@ -421,7 +421,7 @@ export function Sidebar({
 
                     <div className="flex items-center gap-0.5">
                         <a
-                            href="https://github.com/abusoww/tuxmate"
+                            href="https://github.com/TolisSth/tuxmate"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-1.5 px-2.5 py-2 rounded-xl hover:bg-[var(--bg-hover)] text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-all text-[12px]"
