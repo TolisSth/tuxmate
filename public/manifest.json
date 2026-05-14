@@ -1,7 +1,7 @@
 {
-    "name": "TuxMate",
-    "short_name": "TuxMate",
-    "description": "Linux bulk app installer - select your apps, get your install script",
+    "name": "UniMate",
+    "short_name": "UniMate",
+    "description": "Linux bulk app installer",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#0a0a0a",
@@ -9,13 +9,13 @@
     "orientation": "any",
     "icons": [
         {
-            "src": "/icon-192.png",
+            "src": "/unimate.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "/icon-512.png",
+            "src": "/unimate.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
