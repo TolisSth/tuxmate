@@ -54,7 +54,7 @@ export function ShortcutsBar({
                             value={searchQuery}
                             onChange={(e) => onSearchChange(e.target.value)}
                             onKeyDown={handleKeyDown}
-                            placeholder="search..."
+                            placeholder="αναζήτηση..."
                             className="
                                     w-28 sm:w-40
                                     bg-transparent
@@ -75,7 +75,7 @@ export function ShortcutsBar({
 
                     {selectedCount > 0 && (
                         <div className="flex items-center px-3 py-1 text-[var(--text-muted)] border-r border-[var(--border-primary)]/30 whitespace-nowrap">
-                            [{selectedCount} app{selectedCount !== 1 ? 's' : ''}]
+                            [{selectedCount} {selectedCount !== 1 ? 'εφαρμογές' : 'εφαρμογή'}]
                         </div>
                     )}
 
@@ -103,20 +103,13 @@ export function ShortcutsBar({
                     <div className="hidden sm:flex items-center gap-3 px-3 py-1 text-[var(--text-muted)] text-[10px] border-l border-[var(--border-primary)]/30">
                         <span className="hidden lg:inline"><b className="text-[var(--text-secondary)]">←↓↑→ </b>/<b className="text-[var(--text-secondary)]"> hjkl</b> Navigation</span>
                         <span className="hidden lg:inline opacity-30">·</span>
-                        <span><b className="text-[var(--text-secondary)]">/</b> search</span>
+                        <span><b className="text-[var(--text-secondary)]">/</b> αναζήτηση</span>
                         <span className="opacity-30">·</span>
-                        <span><b className="text-[var(--text-secondary)]">Space</b> toggle</span>
+                        <span><b className="text-[var(--text-secondary)]">Space</b> επιλογή</span>
                         <span className="opacity-30">·</span>
-                        <span><b className="text-[var(--text-secondary)]">Tab</b> preview</span>
+                        <span><b className="text-[var(--text-secondary)]">Tab</b> προεπισκόπηση</span>
                         <span className="opacity-30">·</span>
-                        <span><b className="text-[var(--text-secondary)]">?</b> help</span>
-                    </div>
-
-                    <div
-                        className="text-white px-3 py-1 flex items-center font-bold text-xs tracking-wider"
-                        style={{ backgroundColor: distroColor }}
-                    >
-                        TUX
+                        <span><b className="text-[var(--text-secondary)]">?</b> βοήθεια</span>
                     </div>
                 </div>
             </div>

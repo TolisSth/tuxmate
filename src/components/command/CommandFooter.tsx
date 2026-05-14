@@ -229,7 +229,7 @@ export function CommandFooter({
                                         }}
                                     >
                                         <ChevronUp className="w-3.5 h-3.5 shrink-0" />
-                                        <span className="whitespace-nowrap text-xs uppercase tracking-wider">Preview</span>
+                                        <span className="whitespace-nowrap text-xs uppercase tracking-wider">Προεπισκόπηση</span>
                                         {selectedCount > 0 && (
                                             <span className="text-[10px] opacity-60 ml-0.5 whitespace-nowrap">[{selectedCount}]</span>
                                         )}
@@ -272,7 +272,7 @@ export function CommandFooter({
                                         }}
                                     >
                                         <X className="w-4 h-4 shrink-0 opacity-70" />
-                                        <span className="hidden sm:inline whitespace-nowrap">Clear</span>
+                                        <span className="hidden sm:inline whitespace-nowrap">Εκαθάριση</span>
                                     </button>
 
                                     <button
@@ -295,7 +295,7 @@ export function CommandFooter({
                                         }}
                                     >
                                         <Download className="w-4 h-4 shrink-0 opacity-70" />
-                                        <span className="hidden sm:inline whitespace-nowrap">Download</span>
+                                        <span className="hidden sm:inline whitespace-nowrap">Λήψη</span>
                                     </button>
 
                                     <button
@@ -320,7 +320,7 @@ export function CommandFooter({
                                         }}
                                     >
                                         {copied ? <Check className="w-4 h-4 shrink-0" /> : <Copy className="w-4 h-4 shrink-0 opacity-70" />}
-                                        <span className="hidden sm:inline whitespace-nowrap">{copied ? 'Copied!' : 'Copy'}</span>
+                                        <span className="hidden sm:inline whitespace-nowrap">{copied ? 'Αντιγράφηκε!' : 'Αντιγραφή'}</span>
                                     </button>
                                 </div>
                             </div>
