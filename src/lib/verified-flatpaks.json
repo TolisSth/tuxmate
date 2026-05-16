@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAt": "2026-05-14T11:59:46.258Z"
+    "fetchedAt": "2026-05-16T13:54:25.677Z"
   },
-  "count": 709,
+  "count": 708,
   "apps": [
     "ai.jan.Jan",
     "app.comaps.comaps",
@@ -65,7 +65,6 @@
     "com.expidusos.file_manager",
     "com.fastmail.Fastmail",
     "com.feaneron.Boatswain",
-    "com.flow_browser.flow",
     "com.fogpanther.FogPanther",
     "com.freerdp.FreeRDP",
     "com.geeks3d.furmark",
@@ -155,7 +154,6 @@
     "com.pikatorrent.PikaTorrent",
     "com.play0ad.zeroad",
     "com.plexamp.Plexamp",
-    "com.pojtinger.felicitas.Multiplex",
     "com.pojtinger.felicitas.Sessions",
     "com.pokemmo.PokeMMO",
     "com.prusa3d.PrusaSlicer",
@@ -200,6 +198,7 @@
     "de.mediathekview.MediathekView",
     "de.schmidhuberj.DieBahn",
     "de.schmidhuberj.tubefeeder",
+    "de.swsnr.turnon",
     "de.til7701.Puzzled",
     "de.wwwtech.gitte",
     "de.z_ray.OptimusUI",
@@ -230,7 +229,6 @@
     "eu.jumplink.Learn6502",
     "eu.nokun.MirrorHall",
     "eu.vcmi.VCMI",
-    "fr.arnaudmichel.launcherstudio",
     "fr.handbrake.ghb",
     "fr.quentium.acters",
     "garden.jamie.Morphosis",
@@ -312,7 +310,6 @@
     "io.github.giantpinkrobots.flatsweep",
     "io.github.giantpinkrobots.varia",
     "io.github.gopher64.gopher64",
-    "io.github.hedge_dev.hedgemodmanager",
     "io.github.hkdb.Aerion",
     "io.github.ilya_zlobintsev.LACT",
     "io.github.jeffshee.Hidamari",
@@ -457,6 +454,7 @@
     "net.wz2100.wz2100",
     "net.xmind.XMind",
     "network.loki.Session",
+    "nl.andreasknoben.Laser",
     "nl.emphisia.icon",
     "nl.openoffice.bluefish",
     "one.ablaze.floorp",
@@ -596,6 +594,7 @@
     "org.kde.kshisen",
     "org.kde.kstars",
     "org.kde.ktorrent",
+    "org.kde.kwalletmanager5",
     "org.kde.kweather",
     "org.kde.kwrite",
     "org.kde.labplot",
@@ -682,7 +681,6 @@
     "page.codeberg.censor.Censor",
     "page.codeberg.impromptux.ytdl-gui",
     "page.codeberg.libre_menu_editor.LibreMenuEditor",
-    "page.codeberg.tahoso.azul-box",
     "page.kramo.Cartridges",
     "page.tesk.Refine",
     "re.fossplant.pbtk",
@@ -712,6 +710,7 @@
     "vn.hoabinh.quan.CoBang",
     "website.i2pd.i2pd",
     "xyz.ketok.Speedtest",
-    "xyz.z3ntu.razergenie"
+    "xyz.z3ntu.razergenie",
+    "zone.dos.Browser"
   ]
 }

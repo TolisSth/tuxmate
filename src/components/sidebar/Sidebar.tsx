@@ -421,7 +421,7 @@ export function Sidebar({
 
                     <div className="flex items-center gap-0.5">
                         <a
-                            href="https://github.com/TolisSth/tuxmate"
+                            href="https://github.com/open-source-uom/UniMate"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-1.5 px-2.5 py-2 rounded-xl hover:bg-[var(--bg-hover)] text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-all text-[12px]"
@@ -431,7 +431,7 @@ export function Sidebar({
                             <Github className="w-4 h-4" />
                         </a>
                         <a
-                            href="https://github.com/abusoww/tuxmate/blob/main/CONTRIBUTING.md"
+                            href="https://github.com/open-source-uom/UniMate"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-1.5 px-2.5 py-2 rounded-xl hover:bg-[var(--bg-hover)] text-[var(--text-muted)] hover:text-rose-400 transition-all text-[12px]"

@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 
 <div align="center">
-  <h1><a href="https://tuxmate.abusov.com/"><img alt="TuxMate" src="TUXMATE.png" width=600/></a></h1>
+  <h1><a href="https://github.com/open-source-uom/UniMate"><img alt="UniMate" src="unimate.png" width=600/></a></h1>
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Website](https://img.shields.io/website?url=https://tuxmate.abusov.com&style=for-the-badge)
@@ -12,14 +12,13 @@
 
 </div>
 
-## 🐧 The only Mate you need for setup
+## 🐧 Το μόνο "φιλαράκι" που χρειάζεστε για εγκαταστάση
 
-**TuxMate** is a simple web tool that generates install scripts for any Linux distro. Pick your apps, copy the command, done.
+Το **UniMate** είναι ένα απλό διαδικτυακό εργαλείο που δημιουργεί σενάρια εγκατάστασης για οποιαδήποτε διανομή Linux.Επιλέξτε τις εφαρμογές σας, αντιγράψτε την εντολή, και τελειώσατε!
 
-Fresh install? New machine? Can't remember every package name? We've all been there.
+Καινούργια εγκατάσταση; Νέος υπολογιστής; Δεν θυμάστε τα ονόματα όλων των πακέτων; Ιτσ οκαυ όλοι έχουμε βρεθεί σε αυτή τη θέση.
 
-
-## 📦 Supported Package Managers
+## 📦 Υποστηριζόμενοι διαχειριστές πακέτων
 
 - Ubuntu / Debian (apt)
 - Arch Linux (pacman + AUR)
@@ -30,45 +29,36 @@ Fresh install? New machine? Can't remember every package name? We've all been th
 - Snap
 - Homebrew (macOS + Linux)
 
-## ✨ Features
+## ✨ Χαρακτηριστικά
 
-### **Application Catalog**  
-180+ applications across 15 categories: browsers, communication, dev tools, terminals, media, creative software, gaming, office, VPN/network, security, and more.
+### **Κατάλογος Εφαρμογών**  
+Πάνω από 180 εφαρμογές σε 15 κατηγορίες: προγράμματα περιήγησης, επικοινωνία, εργαλεία ανάπτυξης, τερματικά, πολυμέσα, δημιουργικό λογισμικό, παιχνίδια, γραφείο, VPN/δίκτυα, ασφάλεια και άλλα.
 
-### **Smart Script Generation**  
-- Detects already-installed packages
-- Handles AUR packages automatically on Arch
-- **Nix Unfree Detection**: Warns compliant configuration for unfree packages (Discord, Spotify, etc.)
-- Homebrew formula/cask separation for macOS
-- Parallel installation for Flatpak
-- Network retry with exponential backoff
-- Progress bars with ETA
-- Colored output and summary reports
+### **Δημιουργία έξυπνων σεναρίων**  
+- Εντοπίζει τα ήδη εγκατεστημένα πακέτα
+- Διαχειρίζεται αυτόματα τα πακέτα AUR στο Arch
+- **Ανίχνευση μη ελεύθερου λογισμικού Nix**: Προειδοποιεί για τη σωστή διαμόρφωση των πακέτων που δεν είναι ελεύθερα (Discord,Spotify κ.λπ.)
+- Διαχωρισμός Homebrew formula/cask για macOS
+- Παράλληλη εγκατάσταση για Flatpak
+- Επανάληψη δοκιμής σύνδεσης με εκθετική αναμονή
+- Γραμμές προόδου με εκτιμώμενο χρόνο ολοκλήρωσης
+- Έγχρωμες αναφορές εξόδου και συνοπτικές αναφορές
 
-
-
-
-
-## 📸 Screenshots
-
-![1](src/screenshots/1.png)
-![2](src/screenshots/2.png)
-![3](src/screenshots/3.png)
 
 
 
 
 <details>
-<summary><h2>💻 Development</h2></summary>
+<summary><h2>💻 Ανάπτυξη</h2></summary>
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+Ανοίξτε [http://localhost:3000](http://localhost:3000)
 
-### Build
+### Buid
 
 ```bash
 npm run build
@@ -79,48 +69,48 @@ npm start
 
 
 <details>
-<summary><h2>🗂️ Project Structure</h2></summary>
+<summary><h2>🗂️ Δομή του προτζεκτ</h2></summary>
 
 ```
 src/
-├── app/                    # Next.js app router
-│   ├── page.tsx            # Main page component
-│   ├── layout.tsx          # Root layout with meta tags
-│   ├── globals.css         # Tailwind styles
-│   ├── error.tsx           # Error boundary
-│   └── favicon.ico         # Site favicon
+├── app/                    # Δρομολογητής εφαρμογών Next.js
+│   ├── page.tsx            # Στοιχεία της κεντρικής σελίδας
+│   ├── layout.tsx          # Διάταξη ριζικού φακέλου με ετικέτες meta
+│   ├── globals.css         # Στυλ Tailwind
+│   ├── error.tsx           # Όριο σφάλματος
+│   └── favicon.ico         # Εικονίδιο ιστότοπου
 ├── components/
-│   ├── app/                # App cards & categories
-│   ├── command/            # Command footer & AUR settings
-│   ├── common/             # Tooltips, loading states
-│   ├── distro/             # Distribution selector
-│   ├── header/             # Header links & info
-│   ├── search/             # Search overlay
-│   └── ui/                 # Theme toggle
+│   ├── app/                # Κάρτες εφαρμογών & κατηγορίες
+│   ├── command/            # Υποσέλιδο εντολών & ρυθμίσεις AUR
+│   ├── common/             # Συμβουλές εργαλείων, καταστάσεις φόρτωσης
+│   ├── distro/             # Επιλογέας διανομής
+│   ├── header/             # Σύνδεσμοι και πληροφορίες της κεφαλίδας
+│   ├── search/             # Επικάλυψη αναζήτησης
+│   └── ui/                 # Εναλλαγή θέματος
 ├── hooks/                  # React hooks
-│   ├── useLinuxInit.ts     # Main app state management
+│   ├── useLinuxInit.ts     # Διαχείριση κατάστασης της κύριας εφαρμογής
 │   ├── useKeyboardNavigation.ts
 │   ├── useTheme.tsx
 │   ├── useTooltip.ts
 │   └── useDelayedTooltip.ts
 ├── lib/
-│   ├── apps/               # JSON application files by category
-│   ├── data.ts             # Categories, distros, and app unifier
-│   ├── aur.ts              # AUR package detection
-│   ├── analytics.ts        # Umami tracking
-│   ├── utils.ts            # Utility functions
+│   ├── apps/               # Αρχεία εφαρμογών JSON ανά κατηγορία
+│   ├── data.ts             # Κατηγορίες, διανομές και ενοποιητής εφαρμογών
+│   ├── aur.ts              # Ανίχνευση πακέτων AUR
+│   ├── analytics.ts        # Παρακολούθηση Umami
+│   ├── utils.ts            # Συναρτήσεις χρησιμότητας
 │   ├── generateInstallScript.ts
-│   └── scripts/            # Per-distro script generators
-└── __tests__/              # Vitest unit tests
+│   └── scripts/            # Δημιουργοί σεναρίων ανά διανομή
+└── __tests__/              # Δοκιμές μονάδων Vitest
 ```
 
 </details>
 
 
 <details>
-<summary><h2>🐳 Docker Deployment</h2></summary>
+<summary><h2>🐳 Ανάπτυξη Docker</h2></summary>
 
-### Quick Start with Docker
+### Γρήγορη εκκίνηση με το Docker
 
 ```bash
 # Build the Docker image
@@ -188,7 +178,7 @@ docker run -p 3000:3000 \
 
 
 <details>
-<summary><h2>🛠️ Tech Stack</h2></summary>
+<summary><h2>🛠️ Τεχνολογικό περιβάλλον</h2></summary>
 
 - [Next.js](https://nextjs.org/) 16 (App Router)
 - [React](https://react.dev/) 19
@@ -201,85 +191,41 @@ docker run -p 3000:3000 \
 
 </details>
 
-### ⌨️ Keyboard Shortcuts
+### ⌨️ Συντομεύσεις πληκτρολογίου
 
-| Key | Action |
+| Πλήκτρο | Δράση |
 |-----|--------|
-| `↑` `↓` `←` `→` / `h` `j` `k` `l` | Navigate apps |
-| `Space` | Toggle app selection |
+| `↑` `↓` `←` `→` / `h` `j` `k` `l` | Πλοήγηση στις εφαρμογές |
+| `Space` | Επιλογή ή κατάργηση επιλογής εφαρμογής |
 | `Esc` | Clear focus |
 | `/` | Focus search |
-| `y` | Copy command |
-| `d` | Download script |
-| `t` | Toggle theme |
-| `c` | Clear all selections |
-| `Tab` | Toggle preview drawer |
+| `y` | Αντιγραφή εντολής εγκατάστασης |
+| `d` | Λήψη του σεναρίου εγκατάστασης |
+| `t` | Εναλλαγή φωτεινού/σκοτεινού θέματος |
+| `c` | Eκκαθάριση όλων των επιλογών |
+| `Tab` | Προεπισκόπηση των τρέχων επιλογών |
 
-## 🤝 Contribution
+## 🤝 Συνεισφορά
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
-
-
-
-## 🎯 Roadmap
-
-### Completed
-- [x] Multi-distro support (Ubuntu, Debian, Arch, Fedora, openSUSE)
-- [x] Nix, Flatpak & Snap universal package support
-- [x] 180+ applications across 15 categories
-- [x] Smart script generation with error handling
-- [x] Dark / Light theme toggle with smooth animations
-- [x] Copy command & Download script
-- [x] Custom domain
-- [x] Docker support
-- [x] CI/CD shortcuts & workflow
-- [x] Search & filter applications (Real-time)
-- [x] AUR Helper selection (yay/paru) + Auto-detection
-- [x] Keyboard navigation (Vim keys, Arrows, Space, Esc, Enter)
-- [x] Package availability indicators (including AUR badges)
-- [x] Homebrew support (macOS + Linux)
-- [x] PWA support for offline use
-- [x] Nix configuration.nix download with unfree package detection
+Δείτε [CONTRIBUTING.md](CONTRIBUTING.md) για τις οδηγίες συνεισφοράς.
 
 
-
-
-### Planned
-
-- [ ] Winget support (Windows)
-- [ ] Custom presets / profiles
-- [ ] Share configurations via URL
-- [ ] More distros (FreeBSD, Gentoo, Void, Alpine)
-- [ ] i18n / Multi-language support
-- [ ] Companion CLI tool
-- [ ] Expand application catalog (200+)
-- [ ] Dotfiles integration
-- [ ] Declarative NixOS options support (programs.*) [Issue #36]
 
 
 <details>
 <summary><h4>🔗 Related Projects</h4></summary>
 	
-- **[LinuxToys](https://github.com/psygreg/linuxtoys)** – User-friendly collection of tools for Linux with an intuitive interface
-- **[Nixite](https://github.com/aspizu/nixite)** – Generates bash scripts to install Linux software, inspired by Ninite
-- **[tuxmate-cli](https://github.com/Gururagavendra/tuxmate-cli)** – CLI companion for tuxmate, uses tuxmate's package database
+- **[UniOS](https://github.com/open-source-uom/UniOS)** – A custom Linux distribution tailored to the need of the modern Greek university
+- **[UniBackpack](https://github.com/open-source-uom/UniBackpack)** – A Qt6 downloader for software used by greek universities
+- **[UniDesk](https://github.com/open-source-uom/UniDesk)** – Helper app for UniOS written in python/Qt
 
 </details>
 
 
 <details>
-<summary><h4>💳 Monetary Contributions</h4></summary>
+<summary><h4>💳 Χρηματικές συνεισφορές</h4></summary>
 
-No tips jar here. I’m happy just knowing you’re using Linux.
-
-If you want to earn some real life karma points, consider donating to the following organizations:
-
-* [KDE e.V.](https://kde.org/community/donations/)
-* [Gnome Foundation](https://www.gnome.org/donate/)
-* [Arch Linux](https://archlinux.org/donate/)
-* [The Tor Project](https://donate.torproject.org/)
-
-Comments, suggestions, bug reports and contributions are welcome.
+Δεν υπάρχει κουτί για φιλοδωρήματα εδώ. Μας αρκεί το γεγονός ότι χρησιμοποιείτε Linux :)
 
 </details>
 
@@ -287,8 +233,8 @@ Comments, suggestions, bug reports and contributions are welcome.
 <div align="right">
 
 ## 📜 License
-Licensed under the [GPL-3.0 License](LICENSE) <br>
-Free software — you can redistribute and modify it under the terms of the GNU General Public License.
+Κάτω από την άδεια [GPL-3.0 License](LICENSE) <br>
+Ελεύθερο λογισμικό — μπορείτε να το αναδιανείμετε και να το τροποποιήσετε σύμφωνα με τους όρους της Γενικής Άδειας Δημόσιας Χρήσης GNU.
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
