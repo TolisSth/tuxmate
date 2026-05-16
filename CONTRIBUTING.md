@@ -2,7 +2,7 @@
 
 ##  Γρήγορη πλοήγηση
 
-1.  [Επισκόπηση του έργου](#project-overview)
+1.  [Επισκόπηση του έργου](#Επισκόπηση του έργου)
 2.  [Ροή εργασιών ανάπτυξης](#development-workflow)
     *   [Initial Setup](#initial-setup)
     *   [Running with Docker](#running-with-docker)
