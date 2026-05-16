@@ -1,36 +1,5 @@
 # Συνεισφορά στο UniMate
 
-##  Γρήγορη πλοήγηση
-
-1.  [Επισκόπηση του έργου](#Επισκόπηση του έργου)
-2.  [Ροή εργασιών ανάπτυξης](#development-workflow)
-    *   [Initial Setup](#initial-setup)
-    *   [Running with Docker](#running-with-docker)
-    *   [Quality Assurance](#quality-assurance)
-    *   [Verifying Install Scripts](#verifying-install-scripts)
-3.  [Adding Applications](#adding-applications)
-    *   [Research Protocol](#1-mandatory-research-protocol)
-    *   [Entry Structure](#2-entry-structure)
-    *   [Unavailable Reason](#3-unavailable-reason-guidelines)
-    *   [Platform Rules](#4-platform-specific-rules)
-        *   [Arch Linux](#arch-linux)
-        *   [NixOS](#nixos)
-        *   [Ubuntu/Debian](#ubuntudebian)
-        *   [Flatpak](#flatpak)
-        *   [Snap](#snap)
-        *   [Homebrew](#homebrew)
-    *   [Icon System](#5-icon-system)
-    *   [Valid Categories](#6-valid-categories)
-4.  [Adding Distributions](#adding-distributions)
-5.  [Pull Request Checklist](#pull-request-checklist)
-    *   [Core Principles](#core-principles)
-    *   [Verification Steps](#verification-steps)
-6.  [Templates](#templates)
-    *   [Pull Request](#pull-request-template)
-    *   [Bug Report](#issue-template-bug-report)
-
----
-
 ## Επισκόπηση του έργου
 
 *   `src/lib/apps/*.json`: Main registry for applications (split by category).
