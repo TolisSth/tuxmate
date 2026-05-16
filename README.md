@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 
 <div align="center">
-  <h1><a href="https://github.com/open-source-uom/UniMate"><img alt="UniMate" src="unimate.png" width=600/></a></h1>
+  <h1><a href="https://open-source-uom.github.io/UniMate/"><img alt="UniMate" src="unimate.png" width=600/></a></h1>
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Website](https://img.shields.io/website?url=https://tuxmate.abusov.com&style=for-the-badge)
