@@ -1,9 +1,9 @@
-# Contributing to TuxMate
+# Συνεισφορά στο UniMate
 
-## Quick Navigation
+##  Γρήγορη πλοήγηση
 
-1.  [Project Overview](#project-overview)
-2.  [Development Workflow](#development-workflow)
+1.  [Επισκόπηση του έργου](#project-overview)
+2.  [Ροή εργασιών ανάπτυξης](#development-workflow)
     *   [Initial Setup](#initial-setup)
     *   [Running with Docker](#running-with-docker)
     *   [Quality Assurance](#quality-assurance)
@@ -31,7 +31,7 @@
 
 ---
 
-## Project Overview
+## Επισκόπηση του έργου
 
 *   `src/lib/apps/*.json`: Main registry for applications (split by category).
 *   `src/lib/data.ts`: Main registry for distributions, categories, and Typescript types.
